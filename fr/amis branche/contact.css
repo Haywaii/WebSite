@@ -1,0 +1,341 @@
+/** CSS DE MON SITE WEB **/
+/** By Emmanuel Halter **/
+
+
+/** HEADER **/ 
+header {
+    background: url("../images/up_bis.png") repeat-x scroll left top rgb(255, 255, 255);
+	width:100%;
+	height:24%;
+}
+
+* {
+    padding: 0%;
+    border: medium none;
+    margin: 0%;
+}
+
+header .header-right {
+float : right;
+margin-right : 2%;
+}
+
+header section {
+float : right;
+}
+
+section h2 {
+text-align : center;
+font-style: italic;
+font-weight: normal;
+font-size: 100%;
+color: #304D90;
+}
+
+header .header-left {
+margin : auto;
+width: 70%;
+height: 62%;
+}
+
+/** QUOTE HEADER **/ 
+section blockquote h1:first-letter {
+    background:url("../icon/left_gui2.png") no-repeat left top;
+	padding-left:25px;
+}
+
+section blockquote {    
+	background:url("../icon/right_gui2.png") no-repeat right bottom;
+    text-align:justify;
+	float: right;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 100%;
+	padding-top: 12%;
+    padding-right:5%;
+    padding-left:5%;
+	color: #F2A101;
+}
+
+/** FOOTER **/
+footer {
+    background: url("../images/bottom.png") repeat-x scroll left top rgb(239, 239, 239);
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-size: auto auto;
+	width: 100%;
+	height:12%;
+	margin : auto;
+	padding: 2% 0%;
+}
+
+#footerbox-network {
+float: left;
+padding-left: 10%;
+width: 15%;
+}
+
+#footerbox-about {
+float: right;
+padding-right:10%;
+}
+
+#footerbox-about p {
+margin: 0% 0% 5%;
+font-family: 'PMN55',arial,verdana,sans-serif;
+text-align: center;
+}
+
+#footerbox-about a {
+	color: #2252A5;
+}
+
+
+footer h1 {
+color: #7D8484;
+font-family: 'BebasNeue';
+font-size: 150%;
+line-height: 0.5em;
+margin-bottom: 5%;
+text-transform: lowercase;
+font-variant: small-caps;
+text-align: center;
+}
+
+/** ICON STAY CONNECTED **/
+#connect-facebook {
+background : url("../icon/facebook_maj.png") no-repeat scroll -8px -5px transparent;
+width: 25%;
+height: 80%;
+padding: 0% 0% 10% 20%;
+}
+
+#connect-linkedin {
+background : url("../icon/linkedIn_maj.png") no-repeat scroll -8px -5px transparent;
+width: 30%;
+height: 80%;
+padding: 0% 0% 10% 20%;
+}
+
+#connect-skype {
+background : url("../icon/skype.png") no-repeat scroll -8px -5px transparent;
+width: 45%;
+height: 80%;
+padding: 0% 0% 10% 20%;
+}
+
+.sbconnecticon {
+    /**display: inline-block;**/
+    margin-left: 12%;
+    margin-right: auto;
+	margin-top:2%;
+}
+
+/** NAVIGATION MENU **/
+nav {
+	width: 100%;
+	margin: auto;
+	clear: both;
+	font-family: 'BebasNeue';
+	text-transform: uppercase;
+	background: none repeat scroll 0% 0%;
+	background-color : #B6E4F2;
+	font-size: 120%;
+	letter-spacing: 1px;
+	height: 26%;
+	/**padding-top: 2%;**/
+}
+
+nav ul {
+text-align : center;
+list-style: none outside none;
+width: 70%;
+margin: auto;
+height:100%;
+}
+
+nav li {
+width: 14%;
+border-right: 3px solid rgb(255, 255, 255);
+float: left;
+height: 100%;
+}
+
+nav li a {
+    color: #FEE92A;
+    display: table-cell;
+    /**height: 45px;**/
+	padding-top: 8%;
+    vertical-align: middle;
+	width: 14%;
+	font-weight: bold;
+}
+
+nav  li:nth-child(1) {
+	background: none repeat scroll 0% 0% /**rgb(255, 206, 79)**/;
+	background-color : #87CBFE;
+}
+
+nav  li:nth-child(2) {
+	background: none repeat scroll 0% 0%;
+	background-color : #6DC0FE;
+}
+nav  li:nth-child(3) {
+	background: none repeat scroll 0% 0%;
+	background-color : #43ADFE;
+}
+nav  li:nth-child(4) {
+	background: none repeat scroll 0% 0%;
+	background-color : #219EFE;
+}
+
+nav li:nth-child(5) {
+	background: none repeat scroll 0% 0%;
+	background-color : #0190FE;
+}
+
+nav  li:nth-child(5) a {
+	text-decoration: underline;
+}
+
+
+/** CONTENT HOME **/
+body {
+	background : url("../images/body.png") repeat scroll 0% 0% transparent;
+	margin: 0 auto;
+}
+
+#contact{
+	padding-top: 2%;
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+}
+
+/** SECTION CONTACT **/
+
+.grid_contact {
+width: 90%;
+}
+
+#contact {
+margin-bottom: 3%;
+margin-top: 1%;
+}
+
+#contact h1 {
+	font-family: 'Helvetica Neue';
+	font-size: 220%;
+	text-align : center;
+	color: #F2A101;
+	font-weight:bold;
+}
+
+#contact p {
+	font-family: 'Helvetica Neue';
+	color: #90A0D7;
+	text-align: center;
+}
+
+form {
+margin: auto;
+width: 100%;
+}
+
+form input[type="text"], form textarea  {
+    width: 28%;
+	padding: 0% 0%;
+}
+
+form input[type="text"] {
+    height: 30px;
+}
+
+form textarea {
+	height: 22%;
+}
+
+#identity input[type="text"] {
+	width: 27%;
+}
+
+#identity label{
+	color: #6A7573;
+	font-family: 'Helvetica Neue';
+	font-size: 100%;
+}
+
+#input_container_left{
+	width: 49%;
+	float: left;
+	padding-bottom: 1%;
+	text-align: right;
+}
+
+#input_container_right{
+	width: 49%;
+	float: right;
+	padding-bottom: 1%;
+}
+
+form p {
+	font-family: 'Helvetica Neue';
+	color: #90A0D7;
+	font-weight: bold;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	text-align: center;
+	font-size: 110%;
+}
+
+form input[type="text"], #cform textarea {
+	border: 1px solid rgb(143, 148, 154);
+	border-radius: 2% 2% 2% 2%;
+}
+
+.field_required {
+	color: #C11F29;
+	margin-left: 0%;
+}
+
+input {
+	vertical-align: middle;
+}
+
+.input_container {
+text-align:center;
+}
+
+form a {
+	color:#F2A101;
+	font-size: 100%;
+	font-family: verdana,sans-serif;
+	vertical-align: middle;
+}
+
+form button {
+	border-radius: 10% 10% 10% 10%;
+	border: 1px solid rgb(143, 148, 154);
+	background-color: #2A62AB;
+	width: 7%;
+	height: 5%;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+form button > span {
+	font-size: 150%;
+	color: #EFE237;
+	font-family: verdana,sans-serif;
+}
+
+/** DIVERS **/ 
+
+a {
+    text-decoration: none;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+}

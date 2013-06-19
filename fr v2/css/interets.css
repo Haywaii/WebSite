@@ -1,0 +1,331 @@
+/** CSS DE MON SITE WEB **/
+/** By Emmanuel Halter **/
+
+
+/** HEADER **/ 
+header {
+    background: url("../images/up_bis.png") repeat-x scroll left top rgb(255, 255, 255);
+	width:100%;
+	height:24%;
+}
+
+* {
+    padding: 0%;
+    border: medium none;
+    margin: 0%;
+}
+
+header .header-right {
+float : right;
+margin-right : 2%;
+}
+
+header section {
+float : right;
+}
+
+section h2 {
+text-align : center;
+font-style: italic;
+font-weight: normal;
+font-size: 100%;
+color: #304D90;
+}
+
+header .header-left {
+margin : auto;
+width: 70%;
+height: 62%;
+}
+
+/** QUOTE HEADER **/ 
+section blockquote h1:first-letter {
+    background:url("../icon/left_gui2.png") no-repeat left top;
+	padding-left:25px;
+}
+
+section blockquote {    
+	background:url("../icon/right_gui2.png") no-repeat right bottom;
+    text-align:justify;
+	float: right;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 100%;
+	padding-top: 12%;
+    padding-right:5%;
+    padding-left:5%;
+	color: #F2A101;
+}
+
+/** FOOTER **/
+footer {
+    background: url("../images/bottom.png") repeat-x scroll left top rgb(239, 239, 239);
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-size: auto auto;
+	width: 100%;
+	height:12%;
+	margin : auto;
+	padding: 2% 0%;
+}
+
+#footerbox-network {
+float: left;
+padding-left: 10%;
+width: 15%;
+}
+
+#footerbox-about {
+float: right;
+padding-right:10%;
+}
+
+#footerbox-about p {
+margin: 0% 0% 5%;
+font-family: 'PMN55',arial,verdana,sans-serif;
+text-align: center;
+}
+
+#footerbox-about a {
+	color: #2252A5;
+}
+
+
+footer h1 {
+color: #7D8484;
+font-family: 'BebasNeue';
+font-size: 150%;
+line-height: 0.5em;
+margin-bottom: 5%;
+text-transform: lowercase;
+font-variant: small-caps;
+text-align: center;
+}
+
+/** ICON STAY CONNECTED **/
+#connect-facebook {
+background : url("../icon/facebook_maj.png") no-repeat scroll -8px -5px transparent;
+width: 25%;
+height: 80%;
+padding: 0% 0% 10% 20%;
+}
+
+#connect-linkedin {
+background : url("../icon/linkedIn_maj.png") no-repeat scroll -8px -5px transparent;
+width: 30%;
+height: 80%;
+padding: 0% 0% 10% 20%;
+}
+
+#connect-skype {
+background : url("../icon/skype.png") no-repeat scroll -8px -5px transparent;
+width: 45%;
+height: 80%;
+padding: 0% 0% 10% 20%;
+}
+
+.sbconnecticon {
+    /**display: inline-block;**/
+    margin-left: 12%;
+    margin-right: auto;
+	margin-top:2%;
+}
+/** NAVIGATION MENU **/
+nav {
+	width: 100%;
+	margin: auto;
+	clear: both;
+	font-family: 'BebasNeue';
+	text-transform: uppercase;
+	background: none repeat scroll 0% 0%;
+	background-color : #B6E4F2;
+	font-size: 120%;
+	letter-spacing: 1px;
+	height: 26%;
+	/**padding-top: 2%;**/
+}
+
+nav ul {
+text-align : center;
+list-style: none outside none;
+width: 70%;
+margin: auto;
+height:100%;
+}
+
+nav li {
+width: 14%;
+border-right: 3px solid rgb(255, 255, 255);
+float: left;
+height: 100%;
+}
+
+nav li a {
+    color: #FEE92A;
+    display: table-cell;
+    /**height: 45px;**/
+	padding-top: 8%;
+    vertical-align: middle;
+	width: 14%;
+	font-weight: bold;
+}
+
+nav  li:nth-child(1) {
+	background: none repeat scroll 0% 0% /**rgb(255, 206, 79)**/;
+	background-color : #87CBFE;
+}
+
+nav  li:nth-child(2) {
+	background: none repeat scroll 0% 0%;
+	background-color : #6DC0FE;
+}
+nav  li:nth-child(3) {
+	background: none repeat scroll 0% 0%;
+	background-color : #43ADFE;
+}
+nav  li:nth-child(3) a {
+	text-decoration: underline;
+}
+nav  li:nth-child(4) {
+	background: none repeat scroll 0% 0%;
+	background-color : #219EFE;
+}
+
+nav li:nth-child(5) {
+	background: none repeat scroll 0% 0%;
+	background-color : #0190FE;
+}
+
+
+/** CONTENT HOME **/
+body {
+	background : url("../images/body.png") repeat scroll 0% 0% transparent;
+	margin: 0 auto;
+}
+
+/** CONTENT **/
+.content {
+width: 100%;
+height: 120%;
+padding-top: 4%;
+margin: auto;
+}
+
+.content h1 {
+	font-family: 'Helvetica Neue';
+	text-align: center;
+	color: #F2A101;
+	font-size: 150%;
+	margin-bottom: 1%;
+	margin-right: 0%;
+	
+}
+
+.content p {
+	padding-top: 3%;
+	font-family: 'Helvetica Neue';
+	font-size: 120%;
+	/**color: #90A0D7;**/
+	color: #5A5A5A;
+	text-align: center;
+	margin : auto;
+}
+
+/** Intérêts Globaux **/ 
+section ol li{
+	width: 37%;
+	height: 360px;
+	background-color: #F4F4F4;	
+	list-style: none outside none;
+	position: relative;
+	margin: 1em 0%;
+	margin-bottom: 5%;
+}
+
+article {
+	padding-top: 10%;
+}
+
+
+/** Intérêts principaux **/
+#i_first ol {
+	padding : 0%;
+}
+
+#i_first ol  li:nth-child(1) {
+	float: left;
+    clear: left;
+	left: 5%;
+	border: 3px solid #FA6243;
+	border-radius: 2% 2% 2% 2%;
+	background : url("../images/ww2.png") no-repeat scroll -8px -5px transparent;
+}
+#i_first ol  li:nth-child(1) h1, #i_first ol  li:nth-child(1) strong {
+	color: #FA6243;
+}
+
+#i_first ol  li:nth-child(2) {
+	float: right;
+	clear: right;
+	right: 5%;
+	border: 3px solid #219EFE;
+	border-radius: 2% 2% 2% 2%;
+	background : url("../images/travel.png") no-repeat scroll -8px -5px transparent;
+}
+
+#i_first ol  li:nth-child(2) h1, #i_first ol  li:nth-child(2) strong {
+	color: #219EFE;
+}
+
+/** Intérêts 2nd **/
+#i_second ol {
+	padding : 0%;
+}
+
+#i_second  ol  li:nth-child(1) {
+	float: left;
+    clear: left;
+	left: 5%;
+	border: 3px solid #F2A101;
+	border-radius: 2% 2% 2% 2%;
+	background : url("../images/sports.png") no-repeat scroll -8px -5px transparent;
+}
+
+#i_second ol  li:nth-child(1) h1, #i_second ol  li:nth-child(1) strong {
+	color: #F2A101;
+}
+
+#i_second  ol  li:nth-child(2) {
+	float: right;
+	clear: right;
+	right: 5%;
+	border: 3px solid #68B962;
+	border-radius: 2% 2% 2% 2%;
+	background : url("../images/recruiting.png") no-repeat scroll -8px -5px transparent;
+}
+
+#i_second ol  li:nth-child(2) h1, #i_second ol  li:nth-child(2) strong {
+	color: #68B962;
+}
+
+/** Soulignement des liens **/
+article a:hover {
+	text-decoration: none;
+	border-bottom: 1px dashed;
+}
+
+article strong {
+	color: #F2A101;
+}
+
+
+/** DIVERS **/ 
+
+a {
+    text-decoration: none;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+}
