@@ -24,12 +24,13 @@
 $(document).ready(function () {
         // The data to be represented on the Radar chart.
         var data = [22, 25, 25, 15, 25];
+		var data2 = [25, 30, 30, 20, 32];
 
         // Create the Radar chart. The arguments are the canvas ID and the data to be shown on the chart.
-        var radar = new RGraph.Radar('tSkills', data);
+        //var radar = new RGraph.Radar('tSkills', data);
         
         // If you want to show multiple data sets, then you give them like this:
-        // var radar = new RGraph.Radar('myRadar', [3,5,6,8], [4,5,2,6]);
+        var radar = new RGraph.Radar('tSkills', data, data2);
 
         // Configure the Radar chart to look as you wish.
 		radar.Set('chart.title','Techniques');
@@ -43,10 +44,14 @@ $(document).ready(function () {
 		radar.Set('chart.text.size',12);
 		radar.Set('chart.background.circles.color','#919084');
 		// Chart color
-		radar.Set('chart.colors', ['#FEE855']);
-		radar.Set('chart.colors.alpha', 0.7);
+		//radar.Set('colors', ['#FEE855', '#D5DAF9']);
+		radar.Set('colors', ['rgba(255,0,0,0.25)','rgba(255,255,0,0.25)']);
+		//radar.Set('chart.colors.alpha', 0.5);
+	
+		radar.Set('chart.axes.color', 'transparent');
 		//Légende de la zone radar
-        //radar.Set('chart.key', ['Niveau technique']);
+        radar.Set('chart.key', ['2012','2013']);
+		radar.Set('chart.key.linewidth', 0);
 		radar.Set('chart.ymax',40);
         // Now call the .Draw() method to draw the chart.
         radar.Draw();

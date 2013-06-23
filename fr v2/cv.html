@@ -3,41 +3,39 @@
 <!--[if IE 9 ]><html lang="fr" class="no-js ie9"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!-->
 
-<!-- Main Values / Apport pro / Apport perso -->
-
 <html lang="fr">
 <head>
 	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
 		<title>
-			  Apports | Emmanuel HALTER
+			  CV | Emmanuel HALTER
 		</title>
-		<link rel="stylesheet" type="text/css" href="css/apports.css">
+		<link rel="stylesheet" type="text/css" href="css/cv.css">
 		<link rel="icon" type="image/png" href="icon/favicon.png" />
 		<!--[if IE]><link rel="shortcut icon" type="image/png" href="icon/favicon.png" /><![endif]-->
 </head>
 <body>
 <header>
-	<div class="header-left">
+	<section id="header-left">
 		<a title="Accueil" href="http://ehalter.com">
 			<img alt="Emmanuel Halter" src="images/title.png"/>
 		</a>
-		<section>
+		<div>
 			<blockquote>
 				<h1>
 					<span class='message'></span>
 				</h1>
 			</blockquote>
 			<h2 class="source"></h2>			
-		</section>
-	</div>
-	<div class="header-right">
+		</div>
+	</section>
+	<section id="header-right">
 		<a rel="home" title="Fran&#231;ais" href="http://ehalter.com/profil.html">
 			<img alt="fr" src="icon/flag_fr.png"/>
 		</a>
 		<a rel="home" title="Anglais" href="http://ehalter.com/en/profile.html">
 			<img alt="en" src="icon/flag_en.png"/>
 		</a>
-	</div>
+	</section>
 	<nav>
 		<ul>
 			<li>
@@ -59,7 +57,28 @@
 	</nav>	
 </header>
 <div class="content">
-	<img alt="apports" src="images/apportsTest.png"/>
+		<h1>Choisissez votre support</h1>
+		<section id="cv">
+				<ol>
+					<li>
+						<h2>CV traditionnel</h2>
+						<article>
+							<a href="http://ehalter.com/cv.pdf" title="CV traditionnel" onclick="window.open(this.href);return false">
+								<img id="cv_fr" alt="cv" src="images/cv_fr.png"/>
+							</a>
+						</article>
+					</li>
+					<li>
+						<h2>CartoCV</h2>
+						<article>
+							<a href="http://www.mindomo.com/view.htm?m=99bebe0863882b7b86207f2face5a197" title="CartoCV" onclick="window.open(this.href);return false">
+								<img id="cartoCV" alt="cartoCV" src="images/cartoCV.png"/>
+							</a>
+						</article>
+					</li>
+				</ol>
+			<img id="vs" alt="versus" src="images/vs.png"/>
+		</section>
 </div>
 <footer>
 		<section id="footerbox-network">
