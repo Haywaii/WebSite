@@ -154,13 +154,11 @@ margin: auto;
 height:100%;
 }
 
-nav ul li {
+nav li {
 width: 14%;
 border-right: 3px solid rgb(255, 255, 255);
 float: left;
 height: 100%;
-display:inline-block;
-position:relative;
 }
 
 nav li a {
@@ -191,53 +189,17 @@ nav  li:nth-child(4) {
 	background-color : #219EFE;
 }
 
+nav  li:nth-child(4) a {
+	text-decoration: underline;
+}
+
 nav li:nth-child(5) {
 	background: none repeat scroll 0% 0%;
 	background-color : #0190FE;
 }
 
-/** SOUS-MENU **/
 
-nav li:hover > ul {
-	display: block;
-}
 
-nav ul li ul {
-	/**display:inherit;**/
-	border-radius:0;
-}
-
-nav ul li ul:last-child{
-   border-radius:0 0 8px 8px;
-}
-
-nav ul ul{
-	position:absolute;
-	/**height:5%;**/
-	width:715%;
-	overflow:hidden;
-	transition: .8s all .3s;
-	padding:0;
-	margin:0;
-	list-style:none;
-	text-align:center;
-	left: -4000px;
-}
-
-nav ul li {
-display:inline-block;
-position:relative;
-}
-
-nav ul ul li{
-display:inherit;
-border-radius:0;
-}
-
-ul li:hover > ul {
-	max-height:15em;
-	border-radius:0;
-}
 
 /** CONTENT HOME **/
 body {
@@ -249,56 +211,79 @@ body {
 /** CONTENT **/
 .content {
 width: 100%;
-height: 190%;
+height: 105%;
+padding-top: 4%;
 margin: auto;
 font-family: 'Helvetica Neue';
-}
-
-.content article{
-width: 100%;
-padding-top: 2%;
-}
-
-.content section {
-width: 100%;
-height: 85%;
-margin-top: 4%;
 }
 
 .content h1 {
 	text-align: center;
 	color: #F2A101;
-	font-size: 250%;
+	font-size: 210%;
 	text-align : center;
+	margin-bottom: 1%;
 	margin-right: 0%;
-	text-transform: uppercase;
 	
 }
 
 .content p {
-	padding-top: 1%;
-	font-size: 120%;
-	color: #90A0D7;
+	padding-top: 3%;
+	font-size: 110%;
+	/**color: #90A0D7;**/
+	color: #A7A8A8;
 	text-align: center;
-	margin-right: 0%;
+	margin-right: 2%;
+}
+
+.content a {
+	color: #2252A5;
+}
+
+.content h2 {
+	text-align: center;
+	color: #FEEA34;
+	font-size: 150%;
+	text-align: center;
+	padding-top: 1%;
+	background-color: #87CBFE;
+}
+
+/** Projet **/ 
+.content article{
+	width: 43%;
+	height: 275px;
+	background-color: #F4F4F4;	
+	border: 2px solid #87CBFE;
+	border-radius: 1% 1% 1% 1%;
+	list-style: none outside none;
+	position: relative;
+	margin: 1em 0px;
+	left: 28%;
+}
+
+.content section ul li {
+	text-align: center;
+	padding-top: 2%;
+}
+
+.content img {
+	margin-bottom:2%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
 /** Soulignement des liens **/
-.content a:hover {
+section a:hover {
 	text-decoration: none;
 	border-bottom: 1px dashed;
 }
 
-.content strong {
+section strong {
 	color: #F2A101;
 }
 
-.content ul li {
-	color: #90A0D7;
-	text-align:center;
-	margin-bottom: 1%;
-	list-style: none outside none;
-}
 
 /** DIVERS **/ 
 

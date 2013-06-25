@@ -146,16 +146,15 @@ nav {
 	/**padding-top: 2%;**/
 }
 
-#menu/**, #menu ul**/ {
+#menu {
 text-align : center;
-list-style: none;
+/**list-style: none;**/
 width: 70%;
 margin: auto;
 height:100%;
-padding:0;
 }
 
-#menu li {
+nav li {
 display:inline-block;
 position:relative;
 width: 14%; 
@@ -197,14 +196,13 @@ nav li:nth-child(5) {
 	background-color : #0190FE;
 }
 
-/** SOUS-MENU **/
+/** NAVIGATION SOUS-MENU **/
 #menu ul li{
 display:inherit;
 -webkit-border-radius:0;
    -moz-border-radius:0;
         border-radius:0;
-width: 100%; 
-height: 30%;
+width: 100%;
 }
 #menu ul li:hover{
 -webkit-border-radius:0;
@@ -212,18 +210,20 @@ height: 30%;
         border-radius:0;
 }
 #menu ul li:last-child{
--webkit-border-radius:0 0 8px 8px;
-   -moz-border-radius:0 0 8px 8px;
-        border-radius:0 0 8px 8px;
+-webkit-border-radius:0 0 4px 4px;
+   -moz-border-radius:0 0 4px 4px;
+        border-radius:0 0 4px 4px;
 }
 #menu ul{
 position:absolute;
 max-height:0;
 width:100%;
+height:auto;
 overflow:hidden;
 text-align : center;
 list-style: none;
-margin: auto;
+margin:0;
+padding-top: 7%;
 -moz-transition: .7s all .2s;
 -webkit-transition: .7s all .2s;
 -o-transition: .7s all .2s;
@@ -235,32 +235,64 @@ transition: .7s all .2s;
 max-height:15em;
 }
 #menu ul a{
-padding:6px 0;
-}
-#menu li:hover li a{
-color:#fff;
-text-transform:inherit;
-}
-#menu li:hover a, #menu li li:hover a{
-color:#000;
+padding-top: 5px;
+color: #FEE92A;
+text-align: center;
+font-size: 90%;
 }
 
+#menu li:hover li a{
+color:#FEE92A;
+text-transform:inherit;
+}
+/**#menu li:hover a,**/ #menu li li:hover a{
+color:#959594;
+}
+
+/* background des liens sous menus */
+#menu li:nth-child(2) li{
+background: none repeat scroll 0% 0%;
+background-color : #6DC0FE;
+padding-bottom: 5px;
+}
+#menu li:nth-child(3) li{
+background: none repeat scroll 0% 0%;
+background-color : #43ADFE;
+padding-bottom: 5px;
+}
+#menu li:nth-child(4) li{
+background: none repeat scroll 0% 0%;
+background-color : #219EFE;
+padding-bottom: 5px;
+}
+/* background des liens menus et sous menus au survol */
+#menu li:nth-child(2) li:hover{
+background:#B6E4F2;
+}
+#menu li:nth-child(3) li:hover{
+background:#B6E4F2;
+}
+#menu li:nth-child(4) li:hover{
+background:#B6E4F2;
+}
+
+
 /** CSS pour la création de l'icône du premier fils **/
-#menu ul li:first-child a:after{
+/**#menu ul li:first-child a:after{
     content: '';
     position: absolute;
-    left: 25px;
-    top: -6px;
+    left: 15px;
+    top: -7px;
     width: 0;
     height: 0;
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
-    border-bottom: 8px solid #444;
+    border-bottom: 8px solid #B6E4F2;
 }
 
 #menu ul li:first-child a:hover:after{
-    border-bottom-color: #04acec;
-}
+    border-bottom-color: #B6E4F2;
+}**/
 
 
 /** CONTENT HOME **/

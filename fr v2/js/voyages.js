@@ -70,7 +70,7 @@ $(document).ready(function initialiser() {
 						  '</div>'+
 						  '<h1>New York</h1>'+
 						  '<div id="bodyContent">'+
-						  '<p><h2>Holidays</h2></p>'+
+						  '<h2>Holidays</h2>'+
 						  '<p> Discover the Big Apple with friends during earthquake and Hurricane Irene. ' +
 						  'Really stunning to see these by itself.'+
 						  'Beautiful travel, this place has something special</p>'+
@@ -91,7 +91,7 @@ $(document).ready(function initialiser() {
 						  '</div>'+
 						  '<h1>London</h1>'+
 						  '<div id="bodyContent">'+
-						  '<p><b>Holidays</b></p>'+
+						  '<h2>Holidays</h2>'+
 						  '<p> See one of my friends who live there. ' +
 						  'Always good to see people you love and travel at the same time.</p>'+
 						  '<p>Last visited June, 2012.</p>'+
@@ -110,7 +110,7 @@ $(document).ready(function initialiser() {
 						  '</div>'+
 						  '<h1>Barcelona</h1>'+
 						  '<div id="bodyContent">'+
-						  '<p><b>Holidays</b></p>'+
+						  '<h2>Holidays</h2>'+
 						  '<p> One week with my friends near Barcelona. ' +
 						  'to have fun and to discover Catalonia.</p>'+
 						  '<p>Last visited September, 2012.</p>'+
@@ -129,7 +129,7 @@ $(document).ready(function initialiser() {
 						  '</div>'+
 						  '<h1>Cardiff</h1>'+
 						  '<div id="bodyContent">'+
-						  '<p><b>Holidays</b></p>'+
+						  '<h2>Holidays</h2>'+
 						  '<p> My first travel abroad. ' +
 						  'One week to see one of my sister in internship there and to enjoy Wales.</p>'+
 						  '<p>Last visited july, 1996.</p>'+
@@ -148,7 +148,7 @@ $(document).ready(function initialiser() {
 						  '</div>'+
 						  '<h1>France</h1>'+
 						  '<div id="bodyContent">'+
-						  '<p> My Home Country.</p> ' +
+						  '<h2> My Home Country.</h2> ' +
 						  '<p>Culinary reputation, old History and Alps are always an oasis of well-being.</p>'+
 						  '</div>'+
 						  '</div>';
@@ -165,7 +165,7 @@ $(document).ready(function initialiser() {
 						  '</div>'+
 						  '<h1>Annecy</h1>'+
 						  '<div id="bodyContent">'+
-						  '<p> My french paradise</p>. ' +
+						  '<h2> My french paradise</h2>. ' +
 						  '<p>Also known as "Venice of Alps" is a quited and beautiful city.</p>'+
 						  '<p>It is a lovely blend of town and nature</p>'+
 						  '<p>Last visited january, 2013.</p>'+
