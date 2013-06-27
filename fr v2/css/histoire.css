@@ -249,17 +249,24 @@ body {
 /** CONTENT **/
 .content {
 width: 100%;
-height: 85%;
+height: 135%;
 padding-top: 2%;
 margin: auto;
 font-family: 'Helvetica Neue';
+/**background : url("../images/ww2/history.png") transparent;**/
 }
 
-.content h1 {
+.content article {
+	height: 24%;
+	width: 70%;
+	padding-left: 15%;
+}
+
+.content h1, #myModal h1 {
 	text-align: center;
+	padding-bottom: 1%;
 	color: #F2A101;
 	font-size: 250%;
-	text-align : center;
 	margin-right: 0%;
 	text-transform: uppercase;
 	
@@ -269,7 +276,6 @@ font-family: 'Helvetica Neue';
 	text-align: center;
 	color: #F2A101;
 	font-size: 150%;
-	text-align : center;
 	margin-right: 0%;
 	margin-bottom: 0%;
 	margin-top: 3%;	
@@ -282,20 +288,23 @@ font-family: 'Helvetica Neue';
 	font-size: 85%;
 }
 
-.content p {
-	padding-top: 1%;
-	padding-bottom: 1%;
+.content p, #myModal p{
 	font-size: 120%;
 	color: #90A0D7;
 	text-align: center;
 	margin-right: 0%;
+	margin-top: 1%;
 }
 
-.content a {
+#myModal p {
+margin-top: 3%;
+}
+
+/**.content a {
 	color: #2252A5;
 	font-style: bold;
 	font-size: 120%;
-}
+}**/
 
 /** Soulignement des liens **/
 .content a:hover {
@@ -303,7 +312,7 @@ font-family: 'Helvetica Neue';
 	border-bottom: 1px dashed;
 }
 
-.content strong {
+.content strong, #myModal strong {
 	color: #F2A101;
 }
 
@@ -312,6 +321,25 @@ font-family: 'Helvetica Neue';
 	text-align:center;
 	margin-bottom: 1%;
 	list-style: none outside none;
+}
+#history {
+	position: relative;
+	width: 100%;
+	height: 76%;
+}
+
+
+/** Placement des images cliquables **/
+#sfiles {
+	position: absolute;
+	margin-left: 44%;
+	margin-top: -35%;
+}
+
+#boussole {
+	position: absolute;
+	margin-left: 10px;
+	margin-top: -12%;
 }
 
 /** DIVERS **/ 
@@ -324,3 +352,50 @@ body, html {
 	width: 100%;
 	height: 100%;
 }
+
+	.reveal-modal-bg { 
+		position: fixed; 
+		height: 100%;
+		width: 100%;
+		background: #000;
+		background: rgba(0,0,0,.8);
+		z-index: 100;
+		display: none;
+		top: 0;
+		left: 0; 
+		}
+	
+	.reveal-modal {
+		visibility: hidden;
+		top: 100px; 
+		left: 50%;
+		margin-left: -300px;
+		width: 600px;
+		background: #eee url(modal-gloss.png) no-repeat -200px -80px;
+		position: absolute;
+		z-index: 101;
+		padding: 30px 40px 34px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		}
+		
+	.reveal-modal.small 		{ width: 200px; margin-left: -140px;}
+	.reveal-modal.medium 		{ width: 400px; margin-left: -240px;}
+	.reveal-modal.large 		{ width: 600px; margin-left: -340px;}
+	.reveal-modal.xlarge 		{ width: 800px; margin-left: -440px;}
+	
+	.reveal-modal .close-reveal-modal {
+		font-size: 22px;
+		line-height: .5;
+		position: absolute;
+		top: 8px;
+		right: 11px;
+		color: #aaa;
+		text-shadow: 0 -1px 1px rbga(0,0,0,.6);
+		font-weight: bold;
+		cursor: pointer;
+		}

@@ -19,4 +19,18 @@
       $(".message").html(myQuotes[myRandom]);
 	  $(".source").html(mySource[myRandom]);
 	  
-   });
+});
+
+$(document).ready(function() {
+     $('#sfiles').click(function(e) {
+          e.preventDefault();
+	  $('#myModal').reveal();
+     });
+});
+
+$('#myModal').reveal({
+     animation: 'fadeAndPop',                   //fade, fadeAndPop, none
+     animationspeed: 300,                       //how fast animtions are
+     closeonbackgroundclick: true,              //if you click background will modal close?
+     dismissmodalclass: 'close-reveal-modal'    //the class of a button or element that will close an open modal
+});
