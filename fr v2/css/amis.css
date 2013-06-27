@@ -15,16 +15,16 @@ header {
     margin: 0%;
 }
 
-header .header-right {
+#header-right {
 float : right;
 margin-right : 2%;
 }
 
-header section {
+header div {
 float : right;
 }
 
-section h2 {
+header div h2 {
 text-align : center;
 font-style: italic;
 font-weight: normal;
@@ -32,19 +32,19 @@ font-size: 100%;
 color: #304D90;
 }
 
-header .header-left {
+#header-left {
 margin : auto;
 width: 70%;
 height: 62%;
 }
 
 /** QUOTE HEADER **/ 
-section blockquote h1:first-letter {
+header div blockquote h1:first-letter {
     background:url("../icon/left_gui2.png") no-repeat left top;
 	padding-left:25px;
 }
 
-section blockquote {    
+header div blockquote {    
 	background:url("../icon/right_gui2.png") no-repeat right bottom;
     text-align:justify;
 	float: right;
@@ -56,6 +56,7 @@ section blockquote {
     padding-left:5%;
 	color: #F2A101;
 }
+
 
 /** FOOTER **/
 footer {

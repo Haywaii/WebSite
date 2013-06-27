@@ -15,16 +15,16 @@ header {
     margin: 0%;
 }
 
-header .header-right {
+#header-right {
 float : right;
 margin-right : 2%;
 }
 
-header section {
+header div {
 float : right;
 }
 
-section h2 {
+header div h2 {
 text-align : center;
 font-style: italic;
 font-weight: normal;
@@ -32,19 +32,19 @@ font-size: 100%;
 color: #304D90;
 }
 
-header .header-left {
+#header-left {
 margin : auto;
 width: 70%;
 height: 62%;
 }
 
 /** QUOTE HEADER **/ 
-section blockquote h1:first-letter {
+header div blockquote h1:first-letter {
     background:url("../icon/left_gui2.png") no-repeat left top;
 	padding-left:25px;
 }
 
-section blockquote {    
+header div blockquote {    
 	background:url("../icon/right_gui2.png") no-repeat right bottom;
     text-align:justify;
 	float: right;
@@ -146,25 +146,27 @@ nav {
 	/**padding-top: 2%;**/
 }
 
-nav ul {
+#menu {
 text-align : center;
-list-style: none outside none;
+/**list-style: none;**/
 width: 70%;
 margin: auto;
 height:100%;
 }
 
 nav li {
-width: 14%;
+display:inline-block;
+position:relative;
+width: 14%; 
 border-right: 3px solid rgb(255, 255, 255);
 float: left;
 height: 100%;
+
 }
 
 nav li a {
     color: #FEE92A;
     display: table-cell;
-    /**height: 45px;**/
 	padding-top: 8%;
     vertical-align: middle;
 	width: 14%;
@@ -180,7 +182,7 @@ nav  li:nth-child(2) {
 	background: none repeat scroll 0% 0%;
 	background-color : #6DC0FE;
 }
-nav  li:nth-child(2) a {
+#menu > li:nth-child(2) > a, nav li:nth-child(2) ul li:nth-child(2) a {
 	text-decoration: underline;
 }
 nav  li:nth-child(3) {
@@ -195,6 +197,86 @@ nav  li:nth-child(4) {
 nav li:nth-child(5) {
 	background: none repeat scroll 0% 0%;
 	background-color : #0190FE;
+}
+
+/** NAVIGATION SOUS-MENU **/
+#menu ul li{
+display:inherit;
+-webkit-border-radius:0;
+   -moz-border-radius:0;
+        border-radius:0;
+width: 100%;
+}
+#menu ul li:hover{
+-webkit-border-radius:0;
+   -moz-border-radius:0;
+        border-radius:0;
+}
+#menu ul li:last-child{
+-webkit-border-radius:0 0 4px 4px;
+   -moz-border-radius:0 0 4px 4px;
+        border-radius:0 0 4px 4px;
+}
+#menu ul{
+position:absolute;
+max-height:0;
+width:100%;
+height:auto;
+overflow:hidden;
+text-align : center;
+list-style: none;
+margin:0;
+padding-top: 7%;
+-moz-transition: .7s all .2s;
+-webkit-transition: .7s all .2s;
+-o-transition: .7s all .2s;
+-ms-transition: .7s all .2s;
+transition: .7s all .2s;
+}
+
+#menu li:hover ul{
+max-height:15em;
+}
+#menu ul a{
+padding-top: 5px;
+color: #FEE92A;
+text-align: center;
+font-size: 90%;
+}
+
+#menu li:hover li a{
+color:#FEE92A;
+text-transform:inherit;
+}
+/**#menu li:hover a,**/ #menu li li:hover a{
+color:#959594;
+}
+
+/* background des liens sous menus */
+#menu li:nth-child(2) li{
+background: none repeat scroll 0% 0%;
+background-color : #6DC0FE;
+padding-bottom: 5px;
+}
+#menu li:nth-child(3) li{
+background: none repeat scroll 0% 0%;
+background-color : #43ADFE;
+padding-bottom: 5px;
+}
+#menu li:nth-child(4) li{
+background: none repeat scroll 0% 0%;
+background-color : #219EFE;
+padding-bottom: 5px;
+}
+/* background des liens menus et sous menus au survol */
+#menu li:nth-child(2) li:hover{
+background:#B6E4F2;
+}
+#menu li:nth-child(3) li:hover{
+background:#B6E4F2;
+}
+#menu li:nth-child(4) li:hover{
+background:#B6E4F2;
 }
 
 
