@@ -34,3 +34,12 @@ $('#myModal').reveal({
      closeonbackgroundclick: true,              //if you click background will modal close?
      dismissmodalclass: 'close-reveal-modal'    //the class of a button or element that will close an open modal
 });
+
+/** Comportement image sur passage souris **/
+$('#sfiles').mouseover(function(){
+  $(this).src = "images/ww2/sfiles_test.png";
+});
+
+$('#sfiles').mouseout(function(){
+  $(this).src = "images/ww2/sfiles.png");
+});

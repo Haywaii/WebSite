@@ -325,6 +325,12 @@ font-family: 'Helvetica Neue';
 	margin-right: 2%;
 }
 
+.content img {
+	position: absolute;
+	margin-left: 80%;
+	margin-top: -35%;
+}
+
 video {
   width: 60%;
   height: auto;

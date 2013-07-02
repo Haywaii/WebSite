@@ -196,6 +196,10 @@ nav li:nth-child(5) {
 	background-color : #0190FE;
 }
 
+#menu > li:nth-child(5) > a{
+	text-decoration: underline;
+}
+
 /** NAVIGATION SOUS-MENU **/
 #menu ul li{
 display:inherit;

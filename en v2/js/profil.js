@@ -33,14 +33,14 @@ $(document).ready(function () {
         var radar = new RGraph.Radar('tSkills', data/**, data2**/);
 
         // Configure the Radar chart to look as you wish.
-		radar.Set('chart.title','Technique');
+		radar.Set('chart.title','Technical');
 		radar.Set('chart.title.color','#8BB8FB');
 		radar.Set('chart.title.y',15);
 		radar.Set('chart.title.x',150);
 		radar.Set('chart.title.size',16);
 		
 		//Labels
-        radar.Set('chart.labels', ['JAVA/J2E', 'UML/Merise', 'SQL', 'HTML/CSS/JS', 'Git/SVN']);
+        radar.Set('chart.labels', ['JAVA/JEE', 'UML/Merise', 'SQL', 'HTML/CSS/JS', 'Git/SVN']);
 		radar.Set('chart.text.size',12);
 		radar.Set('chart.background.circles.color','#919084');
 		// Chart color
@@ -68,7 +68,7 @@ $(document).ready(function () {
         // var radar = new RGraph.Radar('myRadar', [3,5,6,8], [4,5,2,6]);
 
         // Configure the Radar chart to look as you wish.
-		radar.Set('chart.title','Fonctionnel');
+		radar.Set('chart.title','Functional');
 		radar.Set('chart.title.color','#8BB8FB');
 		radar.Set('chart.title.y',15);
 		radar.Set('chart.title.x',600);
@@ -80,7 +80,7 @@ $(document).ready(function () {
 		radar.Set('chart.colors.alpha', 0.7);
 		
 		//Labels
-        radar.Set('chart.labels', ['Anglais', 'Allemand', 'Communication', 'Bancaire/Finance', 'Methodes Agiles']);
+        radar.Set('chart.labels', ['English', 'German', 'Communication', 'Banking/Finance', 'Agiles Methods']);
         //radar.Set('chart.key', ['Niveau fonctionnel']);
 		radar.Set('chart.ymax',40);
         
