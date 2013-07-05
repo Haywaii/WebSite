@@ -1,14 +1,10 @@
-/**$(function() {
-  // Ici, le DOM est entièrement défini
-  $('#texteJQ').html('Hello world. Ce texte est affiché par jQuery.');
-});**/
-
- $(document).ready(function(){
+/** Affichage Quote Motto **/
+$(document).ready(function(){
       var myQuotes = new Array();
-      myQuotes[0] = "&Agrave; travers l'adversit&eacute;...jusqu'aux &eacute;toiles";
-      myQuotes[1] = "Rien n'est difficile, tout est challenge";
-	  myQuotes[2] = "Ils ne savaient pas que c'&eacute;tait impossible alors ils l'ont fait";
-	  myQuotes[3] = "Ne pense pas &agrave; gagner, pense &agrave; ne pas perdre";
+      myQuotes[0] = "Through struggle...to the stars";
+      myQuotes[1] = "Nothing is difficult, everything's a challenge";
+	  myQuotes[2] = "They do not know it was impossible so they do it";
+	  myQuotes[3] = "Do not think to win, Think not to lose";
 	  
 	  var mySource = new Array();
       mySource[0] = "RAF Motto";
@@ -19,8 +15,9 @@
       $(".message").html(myQuotes[myRandom]);
 	  $(".source").html(mySource[myRandom]);
 	  
-   });
-   
+});
+
+/** Affichage Graphique Skills **/   
 $(document).ready(function () {
         // The data to be represented on the Radar chart.
         var data = [23, 23, 23, 14, 25];

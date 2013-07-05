@@ -1,8 +1,4 @@
-/**$(function() {
-  // Ici, le DOM est entièrement défini
-  $('#texteJQ').html('Hello world. Ce texte est affiché par jQuery.');
-});**/
-
+/** Affichage Quote Motto **/
  $(document).ready(function(){
       var myQuotes = new Array();
       myQuotes[0] = "&Agrave; travers l'adversit&eacute;...jusqu'aux &eacute;toiles";
@@ -20,7 +16,8 @@
 	  $(".source").html(mySource[myRandom]);
 	  
    });
-   
+
+/** Affichage graph skills **/   
 $(document).ready(function () {
         // The data to be represented on the Radar chart.
         var data = [23, 23, 23, 14, 25];
