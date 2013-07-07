@@ -1,4 +1,5 @@
 /** Affichage Quote Motto **/
+
  $(document).ready(function(){
       var myQuotes = new Array();
       myQuotes[0] = "&Agrave; travers l'adversit&eacute;...jusqu'aux &eacute;toiles";
@@ -18,6 +19,7 @@
    });
 
 /** Validation Engine **/
+
 //$(document).ready(function(){
    //$("#cform").validationEngine();/*{
     //binded: false  });*/
