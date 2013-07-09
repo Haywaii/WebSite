@@ -25,8 +25,8 @@ $(document).ready(function() {
 			var hbar = new RGraph.HBar('tSkills', [60,40,65,65,70]);            
             hbar.Set('chart.units.post', '%');
             hbar.Set('chart.colors', ['Gradient(#ffd737:#FDB515)']);
-            hbar.Set('chart.strokestyle', 'rgba(0,0,0,0)');
-            //hbar.Set('chart.labels.above', true);
+            //hbar.Set('chart.strokestyle', 'rgba(0,0,0,0)');
+            hbar.Set('chart.labels.above', true);
             hbar.Set('chart.vmargin', 15);
             hbar.Set('chart.background.grid', false);
             hbar.Set('chart.labels', ['JAVA/J2E','HTML/CSS/JS','Git/SVN','UML/MERISE', 'SQL']);

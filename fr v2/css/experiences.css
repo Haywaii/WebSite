@@ -4,9 +4,10 @@
 
 /** HEADER **/ 
 header {
-    background: url("../images/up_bis.png") repeat-x scroll left top rgb(255, 255, 255);
+    /**background: url("../images/up_bis.png") repeat-x scroll left top rgb(255, 255, 255);**/
+	background-color: #B6E4F2 ;
 	width:100%;
-	height:24%;
+	height:80px;
 }
 
 * {
@@ -17,44 +18,55 @@ header {
 
 #header-right {
 float : right;
-margin-right : 2%;
+width: 30%;
+height:100%;
 }
 
-header div {
-float : right;
+#header-left {
+margin : auto;
+width: 20%;
+height: 100%;
+float: left;
+}
+
+header > section img {
+padding-left: 2%;
+}
+
+/** QUOTE HEADER **/ 
+header div blockquote h1:first-letter {
+	padding-left:20px;
+}
+
+header div blockquote{    
+    text-align:justify;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 80%;
+	padding-top: 5%;
+	padding-right:5%;
+	color: #F2A101;
 }
 
 header div h2 {
 text-align : center;
 font-style: italic;
 font-weight: normal;
-font-size: 100%;
+font-size: 90%;
 color: #304D90;
 }
 
-#header-left {
-margin : auto;
-width: 70%;
-height: 62%;
+#quote {
+width:90%;
+top: 5%;
+float: left;
 }
 
-/** QUOTE HEADER **/ 
-header div blockquote h1:first-letter {
-    background:url("../icon/left_gui2.png") no-repeat left top;
-	padding-left:25px;
-}
-
-header div blockquote {    
-	background:url("../icon/right_gui2.png") no-repeat right bottom;
-    text-align:justify;
-	float: right;
-	font-style: italic;
-	font-weight: normal;
-	font-size: 100%;
-	padding-top: 12%;
-    padding-right:5%;
-    padding-left:5%;
-	color: #F2A101;
+#flag {
+width: 9%;
+float: right;
+clear:both;
+margin-top:-12%;
 }
 
 /** FOOTER **/
@@ -133,23 +145,22 @@ padding: 0% 0% 10% 20%;
 
 /** NAVIGATION MENU **/
 nav {
-	width: 100%;
-	margin: auto;
-	clear: both;
+	width: 48%;
+	height: 30%;
 	font-family: 'BebasNeue';
 	text-transform: uppercase;
-	background: none repeat scroll 0% 0%;
-	background-color : #B6E4F2;
 	font-size: 120%;
 	letter-spacing: 1px;
-	height: 26%;
-	/**padding-top: 2%;**/
+	margin: auto;
+	right:7%;
+	margin-right: 31%;
+	padding-top: 1%;
 }
 
-#menu {
+nav > ul {
 text-align : center;
 /**list-style: none;**/
-width: 70%;
+width: 100%;
 margin: auto;
 height:100%;
 }
@@ -157,11 +168,9 @@ height:100%;
 nav li {
 display:inline-block;
 position:relative;
-width: 14%; 
-border-right: 3px solid rgb(255, 255, 255);
-float: left;
-height: 100%;
-
+width: 18%; 
+height: 180%;
+border-radius: 9px 9px 9px 9px;
 }
 
 nav li a {
@@ -182,9 +191,7 @@ nav  li:nth-child(2) {
 	background: none repeat scroll 0% 0%;
 	background-color : #6DC0FE;
 }
-#menu > li:nth-child(2) > a, nav li:nth-child(2) ul li:nth-child(2) a {
-	text-decoration: underline;
-}
+
 nav  li:nth-child(3) {
 	background: none repeat scroll 0% 0%;
 	background-color : #43ADFE;
@@ -206,17 +213,29 @@ display:inherit;
    -moz-border-radius:0;
         border-radius:0;
 width: 100%;
+left: 1px;
 }
+
 #menu ul li:hover{
 -webkit-border-radius:0;
    -moz-border-radius:0;
         border-radius:0;
 }
-#menu ul li:last-child{
--webkit-border-radius:0 0 4px 4px;
-   -moz-border-radius:0 0 4px 4px;
-        border-radius:0 0 4px 4px;
+
+#menu ul li:first-child {
+-webkit-border-radius:9px 9px 0 0;
+   -moz-border-radius:9px 9px 0 0;
+        border-radius:9px 9px 0 0;
+	margin-top: 3%;
 }
+
+
+#menu ul li:last-child{
+-webkit-border-radius:0 0 9px 9px;
+   -moz-border-radius:0 0 9px 9px;
+        border-radius:0 0 9px 9px;
+}
+
 #menu ul{
 position:absolute;
 max-height:0;
@@ -241,7 +260,7 @@ max-height:15em;
 padding-top: 5px;
 color: #FEE92A;
 text-align: center;
-font-size: 90%;
+font-size: 80%;
 }
 
 #menu li:hover li a{
@@ -287,20 +306,31 @@ body {
 }
 
 .content {
-margin-right: auto;
-margin-left: auto;
-width: 90%;
+margin : auto;
+width: 100%;
+}
+
+.content section {
+margin-bottom: 4%;
+}
+
+.content section article{
+width: 50%;
+height: 100%;
+padding-top: 2%;
+float: left;
+}
+
+.content section  canvas {
+padding-top: 3%;
 }
 
 
-/** SECTION PRESENTATION SKILLS **/
-
-.content h1 {
+article h1 {
+	width:100%;
 	font-family: 'Helvetica Neue';
 	float : right;
-	width: 90%;
-	font-size: 210%;
-	padding-right: 5%;
+	font-size: 180%;
 	padding-top: 4%;
 	text-align : center;
 	margin: auto;
@@ -309,16 +339,53 @@ width: 90%;
 	font-weight: bold;
 }
 
-.content section {
-margin-bottom: 4%;
+article h2 {
+	width:100%;
+	font-family: 'Helvetica Neue';
+	float : right;
+	font-size: 120%;
+	text-align : center;
+	color: #A3A4A4;
+	font-style: italic;
 }
 
-.content section  canvas {
-padding-top: 4%;
-width: 49%;
+article h3 {
+	width:100%;
+	font-family: 'Helvetica Neue';
+	float : right;
+	font-size: 100%;
+	text-align : center;
+	color: #A3A4A4;
+	font-style: italic;
 }
 
-/** DIVERS **/ 
+article p {
+	width: 100%;
+	font-family: 'Helvetica Neue';
+	float: right;
+	font-size: 110%;
+	color: #4296C7;
+	text-align: center;
+	padding-top: 2%;
+}
+
+article ul {
+	list-style: disc outside none;
+}
+
+article ul li {
+	width: 100%;
+	text-align: center;
+}
+
+article a {
+	color: #F2A101;
+}
+
+article a:hover {
+    text-decoration: none;
+	border-bottom: 1px dashed;
+}
 
 a {
     text-decoration: none;
