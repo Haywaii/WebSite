@@ -4,9 +4,9 @@
 
 /** HEADER **/ 
 header {
-    background: url("../images/up_bis.png") repeat-x scroll left top rgb(255, 255, 255);
+	background-color: #B6E4F2 ;
 	width:100%;
-	height:24%;
+	height:5rem;
 }
 
 * {
@@ -15,46 +15,60 @@ header {
     margin: 0%;
 }
 
-#header-right {
-float : right;
-margin-right : 2%;
+/** Header left section **/
+header > a {
+margin : auto;
+width: 20%;
+height: 2rem;
+float: left;
 }
 
+/** Header right section**/
 header div {
 float : right;
+width: 30%;
+height:4rem;
 }
 
-header div h2 {
+header > a img {
+padding-left: 2%;
+}
+
+/** Quote Part **/ 
+header blockquote h1:first-letter {
+	padding-left:20px;
+}
+
+header blockquote{    
+    text-align: justify;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 9px;
+	padding-top: 5%;
+	padding-right:5%;
+	color: #F2A101;
+}
+
+header div[name]  h2 {
 text-align : center;
 font-style: italic;
 font-weight: normal;
-font-size: 100%;
+font-size: 1rem;
 color: #304D90;
 }
 
-#header-left {
-margin : auto;
-width: 70%;
-height: 62%;
+header div[name]{
+width:90%;
+top: 5%;
+float: left;
 }
 
-/** QUOTE HEADER **/ 
-header div blockquote h1:first-letter {
-    background:url("../icon/left_gui2.png") no-repeat left top;
-	padding-left:25px;
-}
-
-header div blockquote {    
-	background:url("../icon/right_gui2.png") no-repeat right bottom;
-    text-align:justify;
-	float: right;
-	font-style: italic;
-	font-weight: normal;
-	font-size: 100%;
-	padding-top: 12%;
-    padding-right:5%;
-    padding-left:5%;
-	color: #F2A101;
+/** Language **/
+header div aside {
+width: 9%;
+float: right;
+clear:both;
+margin-top:-12%;
 }
 
 /** FOOTER **/
@@ -64,37 +78,15 @@ footer {
 	background-origin: padding-box;
 	background-size: auto auto;
 	width: 100%;
-	height:12%;
+	height:6rem;
 	margin : auto;
 	padding: 2% 0%;
 }
 
-#footerbox-network {
-float: left;
-padding-left: 10%;
-width: 15%;
-}
-
-#footerbox-about {
-float: right;
-padding-right:10%;
-}
-
-#footerbox-about p {
-margin: 0% 0% 5%;
-font-family: 'PMN55',arial,verdana,sans-serif;
-text-align: center;
-}
-
-#footerbox-about a {
-	color: #2252A5;
-}
-
-
 footer h1 {
 color: #7D8484;
 font-family: 'BebasNeue';
-font-size: 150%;
+font-size: 1,5rem;
 line-height: 0.5em;
 margin-bottom: 5%;
 text-transform: lowercase;
@@ -102,66 +94,84 @@ font-variant: small-caps;
 text-align: center;
 }
 
+/** Networking **/
+footer section[name="network"] {
+float: left;
+padding-left: 10%;
+}
+
+/** Useful links **/
+footer section[name="about"] {
+float: right;
+padding-right:10%;
+}
+
+footer section[name="about"] p {
+margin: 0% 0% 5%;
+font-family: 'PMN55',arial,verdana,sans-serif;
+text-align: center;
+}
+
+footer section[name="about"] a {
+	color: #2252A5;
+}
+
 /** ICON STAY CONNECTED **/
 #connect-facebook {
 background : url("../icon/facebook_maj.png") no-repeat scroll -8px -5px transparent;
 width: 25%;
-height: 80%;
+height: 2rem;
 padding: 0% 0% 10% 20%;
 }
 
 #connect-linkedin {
 background : url("../icon/linkedIn_maj.png") no-repeat scroll -8px -5px transparent;
 width: 30%;
-height: 80%;
+height: 2rem;
 padding: 0% 0% 10% 20%;
 }
 
 #connect-skype {
 background : url("../icon/skype.png") no-repeat scroll -8px -5px transparent;
 width: 45%;
-height: 80%;
+height: 2rem;
 padding: 0% 0% 10% 20%;
 }
 
 .sbconnecticon {
-    /**display: inline-block;**/
     margin-left: 12%;
     margin-right: auto;
 	margin-top:2%;
 }
 
-/** NAVIGATION MENU **/
+/** NAV MENU **/
 nav {
-	width: 100%;
-	margin: auto;
-	clear: both;
+	width: 48%;
+	height: 2.8rem;
 	font-family: 'BebasNeue';
 	text-transform: uppercase;
-	background: none repeat scroll 0% 0%;
-	background-color : #B6E4F2;
-	font-size: 120%;
+	font-size: 1.2rem;
 	letter-spacing: 1px;
-	height: 26%;
-	/**padding-top: 2%;**/
+	margin: auto;
+	right:7%;
+	margin-right: 31%;
+	padding-top: 1%;
 }
 
-#menu {
+nav > ul {
 text-align : center;
-/**list-style: none;**/
-width: 70%;
+width: 100%;
 margin: auto;
-height:100%;
+height: 2.8rem;
 }
 
+/** Liens menu **/
 nav li {
 display:inline-block;
 position:relative;
-width: 14%; 
-border-right: 3px solid rgb(255, 255, 255);
-float: left;
-height: 100%;
-
+width: 18%; 
+height: 2.8rem;
+border-radius: 9px 9px 9px 9px;
 }
 
 nav li a {
@@ -173,51 +183,63 @@ nav li a {
 	font-weight: bold;
 }
 
+nav li {
+	background: none repeat scroll 0% 0%
+}
+
 nav  li:nth-child(1) {
-	background: none repeat scroll 0% 0% /**rgb(255, 206, 79)**/;
 	background-color : #87CBFE;
 }
 
 nav  li:nth-child(2) {
-	background: none repeat scroll 0% 0%;
 	background-color : #6DC0FE;
+	/**background-color: #FEB710;**/
 }
 
 nav  li:nth-child(3) {
-	background: none repeat scroll 0% 0%;
 	background-color : #43ADFE;
 }
 nav  li:nth-child(4) {
-	background: none repeat scroll 0% 0%;
 	background-color : #219EFE;
 }
-#menu > li:nth-child(4) > a, nav li:nth-child(4) ul li:nth-child(1) a {
-	text-decoration: underline;
-}
+
 nav li:nth-child(5) {
-	background: none repeat scroll 0% 0%;
 	background-color : #0190FE;
 }
 
-/** NAVIGATION SOUS-MENU **/
-#menu ul li{
+/** NAV SOUS-MENU **/
+
+ul[name="menu"] ul li{
 display:inherit;
 -webkit-border-radius:0;
    -moz-border-radius:0;
         border-radius:0;
 width: 100%;
+height: 2rem;
 }
-#menu ul li:hover{
+
+ul[name="menu"] ul li:hover{
 -webkit-border-radius:0;
    -moz-border-radius:0;
         border-radius:0;
 }
-#menu ul li:last-child{
--webkit-border-radius:0 0 4px 4px;
-   -moz-border-radius:0 0 4px 4px;
-        border-radius:0 0 4px 4px;
+
+/** Effet sur le contour des sous-menu **/
+ul[name="menu"] ul li:first-child {
+-webkit-border-radius:9px 9px 0 0;
+   -moz-border-radius:9px 9px 0 0;
+        border-radius:9px 9px 0 0;
+	margin-top: 3%;
 }
-#menu ul{
+
+
+ul[name="menu"] ul li:last-child{
+-webkit-border-radius:0 0 9px 9px;
+   -moz-border-radius:0 0 9px 9px;
+        border-radius:0 0 9px 9px;
+}
+
+ul[name="menu"] ul{
 position:absolute;
 max-height:0;
 width:100%;
@@ -234,50 +256,51 @@ padding-top: 7%;
 transition: .7s all .2s;
 }
 
-#menu li:hover ul{
+/** Comportement au survol des sous-menus **/
+ul[name="menu"] li:hover ul{
 max-height:15em;
 }
-#menu ul a{
-padding-top: 5px;
+
+ul[name="menu"] ul a{
+padding-top: 0.8rem;
 color: #FEE92A;
 text-align: center;
-font-size: 90%;
+font-size: 0.8rem;
 }
 
-#menu li:hover li a{
+ul[name="menu"] li:hover li a{
 color:#FEE92A;
 text-transform:inherit;
 }
-/**#menu li:hover a,**/ #menu li li:hover a{
+
+ul[name="menu"] li li:hover a{
 color:#959594;
 }
 
-/* background des liens sous menus */
-#menu li:nth-child(2) li{
+/** background des liens sous menus **/
+ul[name="menu"] li li {
 background: none repeat scroll 0% 0%;
+padding-bottom: 5px;
+}
+
+ul[name="menu"] li:nth-child(2) li{
 background-color : #6DC0FE;
-padding-bottom: 5px;
 }
-#menu li:nth-child(3) li{
-background: none repeat scroll 0% 0%;
+
+ul[name="menu"] li:nth-child(3) li{
 background-color : #43ADFE;
-padding-bottom: 5px;
 }
-#menu li:nth-child(4) li{
-background: none repeat scroll 0% 0%;
+
+ul[name="menu"] li:nth-child(4) li{
 background-color : #219EFE;
-padding-bottom: 5px;
 }
-/* background des liens menus et sous menus au survol */
-#menu li:nth-child(2) li:hover{
+
+/** background des sous menus au survol **/
+ul[name="menu"] li li:hover{
 background:#B6E4F2;
 }
-#menu li:nth-child(3) li:hover{
-background:#B6E4F2;
-}
-#menu li:nth-child(4) li:hover{
-background:#B6E4F2;
-}
+
+
 /** CONTENT HOME **/
 body {
 	background : url("../images/body.png") repeat scroll 0% 0% transparent;
