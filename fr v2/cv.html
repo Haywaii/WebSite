@@ -15,29 +15,11 @@
 </head>
 <body>
 <header>
-	<section id="header-left">
-		<a title="Accueil" href="http://ehalter.com">
-			<img alt="Emmanuel Halter" src="images/title.png"/>
-		</a>
-		<div>
-			<blockquote>
-				<h1>
-					<span class='message'></span>
-				</h1>
-			</blockquote>
-			<h2 class="source"></h2>			
-		</div>
-	</section>
-	<section id="header-right">
-		<a rel="home" title="Fran&#231;ais" href="http://ehalter.com/cv.html">
-			<img alt="fr" src="icon/flag_fr.png"/>
-		</a>
-		<a rel="home" title="Anglais" href="http://ehalter.com/en/resume.html">
-			<img alt="en" src="icon/flag_en.png"/>
-		</a>
-	</section>
+	<a title="Accueil" href="http://ehalter.com">
+				<img alt="Emmanuel Halter" src="images/title.png"/>
+	</a>
 	<nav>
-		<ul id="menu">
+		<ul name="menu">
 			<li>
 				<a href="http://ehalter.com">Accueil</a>
 			</li>
@@ -71,34 +53,48 @@
 				<a href="http://ehalter.com/contact.html">Contact</a>
 			</li>
 		</ul>
-	</nav>	
+	</nav>
+	<div>
+		<div name="quote">
+			<blockquote>
+				<h1>
+					<span class='message'></span>
+				</h1>
+			</blockquote>
+			<h2 class="source"></h2>			
+		</div>
+		<aside>
+			<a rel="home" title="Fran&#231;ais" href="http://ehalter.com/index.html">
+				<img alt="fr" src="icon/flag_fr.jpg"/>
+			</a>
+			<a rel="home" title="Anglais" href="http://ehalter.com/en/index.html">
+				<img alt="en" src="icon/flag_en.jpg"/>
+			</a>
+		</aside>
+	</div>		
 </header>
 <div class="content">
 		<h1>Choisissez votre support</h1>
-		<section id="cv">
+		<section id="cv" name="cv">
 			<ol>
 				<li>
 					<h2>CV traditionnel</h2>
-					<article>
-						<a href="http://ehalter.com/cv.pdf" title="CV traditionnel" onclick="window.open(this.href);return false">
+					<a href="http://ehalter.com/cv.pdf" title="CV traditionnel" onclick="window.open(this.href);return false">
 							<img id="cv_fr" alt="cv" src="images/cv_fr.png"/>
-						</a>
-					</article>
+					</a>
 				</li>
 				<li>
 					<h2>CartoCV</h2>
-					<article>
-						<a href="http://www.mindomo.com/view.htm?m=99bebe0863882b7b86207f2face5a197" title="CartoCV" onclick="window.open(this.href);return false">
+					<a href="http://www.mindomo.com/view.htm?m=99bebe0863882b7b86207f2face5a197" title="CartoCV" onclick="window.open(this.href);return false">
 							<img id="cartoCV" alt="cartoCV" src="images/cartoCV.png"/>
-						</a>
-					</article>
+					</a>
 				</li>
-				</ol>
+			</ol>
 			<img id="vs" alt="versus" src="images/vs.png"/>
 		</section>
 </div>
 <footer>
-		<section id="footerbox-network">
+		<section name="network">
 			<h1>Restons connect&eacute;s</h1>
 				<a target="_blank" title="LinkedIn" href="http://www.linkedin.com/pub/emmanuel-halter/34/a43/511">
 					<span id="connect-linkedin" class="sbconnecticon"></span>
@@ -110,7 +106,7 @@
 					<span id="connect-skype" class="sbconnecticon"></span>
 				</a>
 		</section>	
-		<section id="footerbox-about">
+		<section name="about">
 			<h1>A propos</h1>
 			<p>
 				<a href="http://ehalter.com/apropos.html">Mentions l&eacute;gales</a>

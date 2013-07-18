@@ -18,24 +18,6 @@
 	<a title="Accueil" href="http://ehalter.com">
 				<img alt="Emmanuel Halter" src="images/title.png"/>
 	</a>
-	<div>
-		<div name="quote">
-			<blockquote>
-				<h1>
-					<span class='message'></span>
-				</h1>
-			</blockquote>
-			<h2 class="source"></h2>			
-		</div>
-		<aside>
-			<a rel="home" title="Fran&#231;ais" href="http://ehalter.com/index.html">
-				<img alt="fr" src="icon/flag_fr.jpg"/>
-			</a>
-			<a rel="home" title="Anglais" href="http://ehalter.com/en/index.html">
-				<img alt="en" src="icon/flag_en.jpg"/>
-			</a>
-		</aside>
-	</div>
 	<nav>
 		<ul name="menu">
 			<li>
@@ -71,15 +53,31 @@
 				<a href="http://ehalter.com/contact.html">Contact</a>
 			</li>
 		</ul>
-	</nav>	
+	</nav>
+	<div>
+		<div name="quote">
+			<blockquote>
+				<h1>
+					<span class='message'></span>
+				</h1>
+			</blockquote>
+			<h2 class="source"></h2>			
+		</div>
+		<aside>
+			<a rel="home" title="Fran&#231;ais" href="http://ehalter.com/index.html">
+				<img alt="fr" src="icon/flag_fr.jpg"/>
+			</a>
+			<a rel="home" title="Anglais" href="http://ehalter.com/en/index.html">
+				<img alt="en" src="icon/flag_en.jpg"/>
+			</a>
+		</aside>
+	</div>		
 </header>
-<div class="content">
-		<section>
-			<h1>Principaux niveaux</h1>
-			<canvas id="tSkills" width="700" height="350">[No canvas support]</canvas>
-			<canvas id="fSkills" width="700" height="350">[No canvas support]</canvas>
-		</section>
-</div>
+<section name="skills">
+			<h1>Principaux niveaux de compétences</h1>
+			<canvas id="tSkills" name="tSkills" width="700" height="350">[No canvas support]</canvas>
+			<canvas id="fSkills" name="fSkills" width="700" height="350">[No canvas support]</canvas>
+</section>
 <footer>
 		<section name="network">
 			<h1>Restons connect&eacute;s</h1>
@@ -108,7 +106,7 @@
 		</section>
 </footer>
 <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
-<script src="js/profil.js"></script>
+<script src="js/competences.js"></script>
 <script src="js/RGraph/libraries/RGraph.common.core.js"></script>
 		<script src="js/RGraph/libraries/RGraph.common.dynamic.js"></script>   <!-- Just needed for dynamic features (eg tooltips) -->
 
