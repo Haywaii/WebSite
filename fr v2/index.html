@@ -6,38 +6,29 @@
 <html lang="fr">
 <head>
 		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+		<meta name=”viewport” content=”width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no” />
 		<title>
 			  Accueil | Emmanuel HALTER
 		</title>
-		<link rel="stylesheet" type="text/css" href="css/accueil.css">
+		<link rel="stylesheet" type="text/css" media="screen and (min-width: 1024px) and (max-width: 1799px)" href="css/default/accueil.css">
+		<link rel="stylesheet" type="text/css" media="screen and (min-width: 1024px) and (max-width: 1799px)" href="css/default/header_footer.css">
+		<link rel="stylesheet" type="text/css" media="only screen and (min-width: 1800px)" href="css/vhd/accueil.css">
+		<link rel="stylesheet" type="text/css" media="only screen and (min-width: 769px) and (max-width: 1024px)" href="css/middle/accueil.css">
+		<link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 481px) and (max-device-width: 768px)" href="css/mobile_bis/accueil.css">
+		<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" href="css/mobile/accueil.css">
+		<!--[if (lt IE 9)&(!IEMobile)]>
+			<link rel="stylesheet" type="text/css" media="screen and (min-width: 1024px) and (max-width: 1799px)" href="css/default/accueil_bis.css" media="all">
+			<link rel="stylesheet" type="text/css" media="only screen and (min-width: 1800px)" href="css/vhd/accueil_bis.css" media="all">
+		<![endif]-->
+		
 		<link rel="icon" type="image/png" href="icon/favicon.png" />
 		<!--[if IE]><link rel="shortcut icon" type="image/png" href="icon/favicon.png" /><![endif]-->
 </head>
 <body>
 <header>
-	<section id="header-left">
-		<a title="Accueil" href="http://ehalter.com">
-			<img alt="Emmanuel Halter" src="images/title.png"/>
-		</a>
-		<div>
-			<blockquote>
-				<h1>
-					<span class='message'></span>
-				</h1>
-			</blockquote>
-			<h2 class="source"></h2>			
-		</div>
-	</section>
-	<section id="header-right">
-		<a rel="home" title="Fran&#231;ais" href="http://ehalter.com/index.html">
-			<img alt="fr" src="icon/flag_fr.png"/>
-		</a>
-		<a rel="home" title="Anglais" href="http://ehalter.com/en/index.html">
-			<img alt="en" src="icon/flag_en.png"/>
-		</a>
-	</section>
+	<a title="Accueil" href="http://ehalter.com"></a>
 	<nav>
-		<ul id="menu">
+		<ul name="menu">
 			<li>
 				<a href="http://ehalter.com">Accueil</a>
 			</li>
@@ -46,6 +37,7 @@
 				<ul>
 					<li><a href="http://ehalter.com/cv.html">CV</a></li>
 					<li><a href="http://ehalter.com/compétences.html">Compétences</a></li>
+					<li><a href="http://ehalter.com/expériences.html">Expériences</a></li>
 					<li><a href="http://ehalter.com/apports.html">Apports</a></li>
 				</ul>
 			</li>
@@ -70,10 +62,28 @@
 				<a href="http://ehalter.com/contact.html">Contact</a>
 			</li>
 		</ul>
-	</nav>	
+	</nav>
+	<div>
+		<div name="quote">
+			<blockquote>
+				<h1>
+					<span class='message'></span>
+				</h1>
+			</blockquote>
+			<h2 class="source"></h2>			
+		</div>
+		<aside>
+			<a rel="home" title="Fran&#231;ais" href="http://ehalter.com/index.html">
+				<img alt="fr" src="icon/flag_fr.jpg"/>
+			</a>
+			<a rel="home" title="Anglais" href="http://ehalter.com/en/index.html">
+				<img alt="en" src="icon/flag_en.jpg"/>
+			</a>
+		</aside>
+	</div>		
 </header>
 <div class="content">
-		<img id="portrait" alt="image profil" src="images/profil.png"/>
+		<img alt="image profil" src="images/profil.png"/>
 		<article>
 			<h1>
 				Bienvenue ! Je m'appelle <strong>Emmanuel</strong> et je suis <strong>Ing&eacute;nieur Java/J2E </strong>
@@ -84,13 +94,13 @@
 			</p>
 			<p>Je suis &agrave; l'heure actuelle &agrave; la recherche d'une entreprise.</p>
 			<p>Dans cet espace vous pourrez consulter 
-				<a href="http://ehalter.com/profile"> mon profil</a>, en apprendre plus 
-				<a href="http://ehalter.com/interet"> sur mes principaux int&eacute;r&ecirc;ts </a>, savoir quelles sont
-				<a href="http://ehalter.com/projet">mes projets actuels</a>,
+				<a href="http://ehalter.com/cv.html"> mon profil</a>, en apprendre plus 
+				<a href="http://ehalter.com/histoire.html"> sur mes principaux int&eacute;r&ecirc;ts </a>, savoir quelles sont
+				<a href="http://ehalter.com/missions.html">mes projets actuels</a>,
 				ou
 				<a href="http://ehalter.com/blog/"> consulter mon blog</a>.
 				Si vous voulez encore plus d'informations, &eacute;changer avec moi, me rencontrer ou que mon aide peut vous être utile n'h&eacute;sitez pas &agrave; 
-				<a href="http://ehalter.com/contact"> me contacter</a>.
+				<a href="http://ehalter.com/contact.html"> me contacter</a>.
 			</p>
 			<p>
 				Bonne visite !
@@ -98,7 +108,7 @@
 		</article>
 </div>
 <footer>
-		<section id="footerbox-network">
+		<section name="network">
 			<h1>Restons connect&eacute;s</h1>
 				<a target="_blank" title="LinkedIn" href="http://www.linkedin.com/pub/emmanuel-halter/34/a43/511">
 					<span id="connect-linkedin" class="sbconnecticon"></span>
@@ -110,7 +120,7 @@
 					<span id="connect-skype" class="sbconnecticon"></span>
 				</a>
 		</section>	
-		<section id="footerbox-about">
+		<section name="about">
 			<h1>A propos</h1>
 			<p>
 				<a href="http://ehalter.com/apropos.html">Mentions l&eacute;gales</a>
@@ -119,9 +129,9 @@
 				||
 				<a href="http://ehalter.com/blog/">Blog</a>
 			</p>
-			<p>
+			<small>
 				&#9825; 2013 Par Emmanuel Halter. Copiez et partagez S'il vous plait.
-			</p>
+			</small>
 		</section>
 </footer>
 <script type="text/javascript" src="js/jquery-1.9.1.js"></script>

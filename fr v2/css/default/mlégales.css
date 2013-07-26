@@ -18,9 +18,11 @@ header {
 /** Header left section **/
 header > a {
 margin : auto;
-width: 17rem;
-height: 2rem;
+width: 17%;
+height: 4rem;
 float: left;
+margin-left: 1%;
+background-image: url("../../images/title.png");
 }
 
 /** Header right section**/
@@ -74,7 +76,7 @@ margin-top:-2%;
 
 /** FOOTER **/
 footer {
-    background: url("../images/bottom.png") repeat-x scroll left top rgb(239, 239, 239);
+    background: url("../../images/bottom.png") repeat-x scroll left top rgb(239, 239, 239);
 	background-clip: border-box;
 	background-origin: padding-box;
 	background-size: auto auto;
@@ -111,6 +113,7 @@ footer section[name="about"] p {
 margin: 0% 0% 5%;
 font-family: 'PMN55',arial,verdana,sans-serif;
 text-align: center;
+font-size: 1.1rem;
 }
 
 footer section[name="about"] a {
@@ -120,25 +123,26 @@ footer section[name="about"] a {
 small {
 	font-size: 80%;
 	font-family: 'PMN55',arial,verdana,sans-serif;
+	font-size: 0.9rem;
 }
 
 /** ICON STAY CONNECTED **/
 #connect-facebook {
-background : url("../icon/facebook_maj.png") no-repeat scroll -8px -5px transparent;
+background : url("../../icon/facebook_maj.png") no-repeat scroll -8px -5px transparent;
 width: 25%;
 height: 2rem;
 padding: 0% 0% 10% 20%;
 }
 
 #connect-linkedin {
-background : url("../icon/linkedIn_maj.png") no-repeat scroll -8px -5px transparent;
+background : url("../../icon/linkedIn_maj.png") no-repeat scroll -8px -5px transparent;
 width: 30%;
 height: 2rem;
 padding: 0% 0% 10% 20%;
 }
 
 #connect-skype {
-background : url("../icon/skype.png") no-repeat scroll -8px -5px transparent;
+background : url("../../icon/skype.png") no-repeat scroll -8px -5px transparent;
 width: 45%;
 height: 2rem;
 padding: 0% 0% 10% 20%;
@@ -305,7 +309,7 @@ background:#B6E4F2;
 
 /** CONTENT **/
 body {
-	background : url("../images/body.png") repeat scroll 0% 0% transparent;
+	background : url("../../images/body.png") repeat scroll 0% 0% transparent;
 	margin: 0 auto;
 }
 
