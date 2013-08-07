@@ -23,15 +23,14 @@ height: 4rem;
 float: left;
 margin-left: 0.3%;
 background-image: url("../../images/title_mobile.png");
-background-repeat: no-repeat;
 }
 
 /** Header right section**/
 header div {
 float : right;
-width: 31%;
+width: 30%;
 height: 4rem;
-margin-top: -3.5%;
+margin-top: -2.8%;
 }
 
 header > a img {
@@ -46,9 +45,9 @@ header blockquote h1:first-letter {
 header blockquote{    
     text-align: justify;
 	font-weight: normal;
-	font-size: 0.4rem;
+	font-size: 0.5rem;
 	padding-top: 3%;
-	padding-right: 4%;
+	padding-right: 3%;
 	color: #F2A101;
 }
 
@@ -68,11 +67,11 @@ float: left;
 
 /** Language **/
 header div aside {
-width: 13%;
+width: 9%;
 height: 100%;
 float: right;
 /**clear:both;**/
-margin-top:-25%;
+margin-top:-2%;
 }
 
 /** FOOTER **/
@@ -90,7 +89,7 @@ footer {
 footer h1 {
 color: #7D8484;
 font-family: 'BebasNeue';
-font-size: 1.2rem;
+font-size: 1,5rem;
 line-height: 0.5em;
 margin-bottom: 5%;
 text-transform: lowercase;
@@ -101,20 +100,19 @@ text-align: center;
 /** Networking **/
 footer section[name="network"] {
 float: left;
-padding-left: 5%;
+padding-left: 10%;
 }
 
 /** Useful links **/
 footer section[name="about"] {
 float: right;
-padding-right:5%;
+padding-right:10%;
 }
 
 footer section[name="about"] p {
 margin: 0% 0% 5%;
 font-family: 'PMN55',arial,verdana,sans-serif;
 text-align: center;
-font-size: 0.9rem;
 }
 
 footer section[name="about"] a {
@@ -122,7 +120,7 @@ footer section[name="about"] a {
 }
 
 small {
-	font-size: 0.8rem;
+	font-size: 80%;
 	font-family: 'PMN55',arial,verdana,sans-serif;
 }
 
@@ -130,22 +128,22 @@ small {
 #connect-facebook {
 background : url("../../icon/facebook_maj.png") no-repeat scroll -8px -5px transparent;
 width: 25%;
-height: 2.5rem;
-padding: 0% 0% 16% 20%;
+height: 2rem;
+padding: 0% 0% 10% 20%;
 }
 
 #connect-linkedin {
 background : url("../../icon/linkedIn_maj.png") no-repeat scroll -8px -5px transparent;
 width: 30%;
-height: 2.5rem;
-padding: 0% 0% 16% 20%;
+height: 2rem;
+padding: 0% 0% 10% 20%;
 }
 
 #connect-skype {
 background : url("../../icon/skype.png") no-repeat scroll -8px -5px transparent;
 width: 45%;
-height: 2.5rem;
-padding: 0% 0% 16% 20%;
+height: 2rem;
+padding: 0% 0% 10% 20%;
 }
 
 .sbconnecticon {
@@ -156,7 +154,7 @@ padding: 0% 0% 16% 20%;
 
 /** NAV MENU **/
 nav {
-	width: 55%;
+	width: 46%;
 	height: 2.8rem;
 	font-family: 'BebasNeue';
 	text-transform: uppercase;
@@ -165,7 +163,7 @@ nav {
 	margin: auto;
 	right:7%;
 	margin-right: 31%;
-	padding-top: 2%;
+	padding-top: 1%;
 }
 
 nav > ul {
@@ -188,9 +186,9 @@ background: none repeat scroll 0% 0%;
 nav li a {
     color: #FEE92A;
     display: table-cell;
-	padding-top: 15%;
+	padding-top: 9%;
 	width: 14%;
-	font-size: 1rem;
+	font-size: 1.1rem;
 	font-weight: bold;
 }
 
@@ -199,8 +197,8 @@ nav  li:nth-child(1) {
 }
 
 nav  li:nth-child(2) {
-	background-color : #6DC0FE;
-	/**background-color: #FEB710;**/
+	/**background-color : #6DC0FE;**/
+	background-color: #FEB710;
 }
 
 nav  li:nth-child(3) {
@@ -272,7 +270,7 @@ ul[name="menu"] ul a{
 padding-top: 0.8rem;
 color: #FEE92A;
 text-align: center;
-font-size: 0.6rem;
+font-size: 0.8rem;
 }
 
 ul[name="menu"] li:hover li a{
@@ -306,7 +304,6 @@ background-color : #219EFE;
 ul[name="menu"] li li:hover{
 background:#B6E4F2;
 }
-
 
 a {
     text-decoration: none;

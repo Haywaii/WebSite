@@ -18,11 +18,13 @@ header {
 /** Header left section **/
 header > a {
 margin : auto;
-width: 19%;
-height: 4rem;
+width: 12%;
+height: 8rem;
 float: left;
 margin-left: 1%;
+margin-top: -1%;
 background-image: url("../../images/title.png");
+background-repeat: no-repeat;
 }
 
 /** Header right section**/

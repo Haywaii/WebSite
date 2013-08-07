@@ -21,8 +21,9 @@ margin : auto;
 width: 14%;
 height: 4rem;
 float: left;
-margin-left: 0.3%;
+margin-left: 0.4%;
 background-image: url("../../images/title_mobile.png");
+background-repeat: no-repeat;
 }
 
 /** Header right section**/
@@ -67,11 +68,10 @@ float: left;
 
 /** Language **/
 header div aside {
-width: 13%;
-height: 100%;
+width: 12%;
+height: 4rem;
 float: right;
-/**clear:both;**/
-margin-top:-25%;
+margin-top:-16%;
 }
 
 /** FOOTER **/
