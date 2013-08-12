@@ -17,12 +17,12 @@ header {
 
 /** Header left section **/
 header > a {
-margin : auto;
-width: 12%;
+margin: auto;
+width: 14%;
 height: 8rem;
 float: left;
 margin-left: 1%;
-margin-top: -1%;
+margin-top: -0.7%;
 background-image: url("../../images/title.png");
 background-repeat: no-repeat;
 }
@@ -308,6 +308,11 @@ ul[name="menu"] li li:hover{
 background:#B6E4F2;
 }
 
+/** CONTENT HOME **/
+body {
+	background : url("../../images/body.png") repeat scroll 0% 0% transparent;
+	margin: 0 auto;
+}
 
 a {
     text-decoration: none;

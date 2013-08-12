@@ -16,18 +16,18 @@ $(document).ready(function(){
 	  
    });
 
-/** Affichage graph skills **/  
+/** Affichage graph skills **/
 
 $(document).ready(function () {
         // The data to be represented on the Radar chart.
-        var data = [37, 35, 25, 20, 35];
+        var data = [21, 5, 39, 5, 21];
 		/**var data2 = [25, 30, 30, 20, 32];**/
 
         // Create the Radar chart. The arguments are the canvas ID and the data to be shown on the chart.
         //var radar = new RGraph.Radar('tSkills', data);
         
         // If you want to show multiple data sets, then you give them like this:
-        var radar = new RGraph.Radar('caSkills', data/**, data2**/);
+        var radar = new RGraph.Radar('autoSkills', data);
 
         // Configure the Radar chart to look as you wish.
 		radar.Set('chart.title.color','#8BB8FB');
@@ -48,8 +48,41 @@ $(document).ready(function () {
 		radar.Set('chart.key.linewidth', 0);
 		radar.Set('chart.ymax',40);
         // Now call the .Draw() method to draw the chart.
-        radar.Draw();
+        radar.Draw();	
+    });
+  
+
+$(document).ready(function () {
+        // The data to be represented on the Radar chart.
+        var data = [37, 35, 25, 20, 35];
+		/**var data2 = [25, 30, 30, 20, 32];**/
+
+        // Create the Radar chart. The arguments are the canvas ID and the data to be shown on the chart.
+        //var radar = new RGraph.Radar('tSkills', data);
+        
+        // If you want to show multiple data sets, then you give them like this:
+        var radar = new RGraph.Radar('caSkills', data);
+
+        // Configure the Radar chart to look as you wish.
+		radar.Set('chart.title.color','#8BB8FB');
+		radar.Set('chart.title.y',15);
+		radar.Set('chart.title.x',150);
+		radar.Set('chart.title.size',16);
 		
+		//Labels
+        radar.Set('chart.labels', ['Communication', 'Modelisation', 'Expertise technique', 'Gestion de projet', 'Analyse besoins']);
+		radar.Set('chart.text.size',12);
+		radar.Set('chart.background.circles.color','#919084');
+		radar.Set('strokestyle', ['#FDD569']);
+		// Chart color
+		radar.Set('colors', ['#FDD569']);
+		radar.Set('chart.colors.alpha', 0.7);
+	
+		radar.Set('chart.axes.color', 'transparent');
+		radar.Set('chart.key.linewidth', 0);
+		radar.Set('chart.ymax',40);
+        // Now call the .Draw() method to draw the chart.
+        radar.Draw();		
     });
 
 $(document).ready(function () {

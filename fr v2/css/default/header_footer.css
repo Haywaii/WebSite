@@ -28,9 +28,9 @@ background-repeat: no-repeat;
 
 /** Header right section**/
 header div {
-float : right;
-width: 30%;
+width: 31%;
 height: 4rem;
+float : right;
 margin-top: -2.8%;
 }
 
@@ -68,10 +68,11 @@ float: left;
 
 /** Language **/
 header div aside {
-width: 9%;
-height: 100%;
-float: right;
-margin-top:-2%;
+width: 5%;
+height: 50%;
+right: 0%;
+position: absolute;
+margin-top: -0.7em;
 }
 
 /** FOOTER **/

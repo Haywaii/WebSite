@@ -11,16 +11,16 @@ body {
 
 .content {
 	width: 100%;
-	height: 110%;
+	height: 60rem;
 	margin: auto;
 }
 
 .content img {
-width: 20%;
+width: 30%;
 display: block;
-padding-left : 41%;
+margin: auto;
 margin-bottom: 2%;
-margin-top: 3%;
+margin-top: 2%;
 }
 
 .content article {
@@ -31,24 +31,24 @@ width: 90%;
 
 .content article h1 {
 	font-family: 'Helvetica Neue';
+	padding-bottom: 4%;
 	margin: auto;
 	text-align: center;
 	display: block;
 	font-size: 2rem;
 	color: #284298;
 	width: 90%;
-	padding-left: 10%;
 }
 
 article p {
-	margin-top : 2%;
+	padding-bottom: 2%;
 	font-family: 'Helvetica Neue';
-	float: right;
 	font-size: 1.2rem;
 	color: #90A0D7;
 	text-align: center;
-	width: 60%;
-	padding-right: 15%;
+	width: 80%;
+	display: block;
+	margin: auto;
 }
 
 article a, h1 strong{

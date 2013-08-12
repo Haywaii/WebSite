@@ -21,7 +21,7 @@
 
 
 $(document).ready(function() {
-			var hbar_t = new RGraph.HBar('tSkills', [60,35,65,65,70]);            
+			var hbar_t = new RGraph.HBar('tSkills', [60,70,65,65,40]);            
             hbar_t.Set('chart.units.post', '%');
             hbar_t.Set('chart.colors', ['Gradient(#ffd737:#FDB515)']);
             //hbar.Set('chart.strokestyle', 'rgba(0,0,0,0)');
@@ -30,7 +30,7 @@ $(document).ready(function() {
             hbar_t.Set('chart.background.grid', false);
 			hbar_t.Set('chart.text.size',12);
 			hbar_t.Set('chart.text.color','#7A7B7A');
-            hbar_t.Set('chart.labels', ['JAVA/J2E','HTML/CSS/JS','Git/SVN','UML/MERISE', 'SQL']);
+            hbar_t.Set('chart.labels', ['JAVA/J2E','SQL','Git/SVN','UML/MERISE','HTML/CSS/JS']);
 			hbar_t.Set('chart.title','Competences techniques en %');
 			hbar_t.Set('chart.title.color','#304D90');
 			hbar_t.Set('chart.title.size','10');
@@ -47,7 +47,7 @@ $(document).ready(function() {
             RGraph.isOld() ? hbar_t.Draw() : RGraph.Effects.HBar.Grow(hbar_t);
 			//hbar.Draw();
 			
-			var hbar_f = new RGraph.HBar('fSkills', [85,60,75,70,70]);            
+			var hbar_f = new RGraph.HBar('fSkills', [85,75,70,65,62]);            
             hbar_f.Set('chart.units.post', '%');
             hbar_f.Set('chart.colors', ['Gradient(#ffd737:#FDB515)']);
             //hbar.Set('chart.strokestyle', 'rgba(0,0,0,0)');
@@ -56,8 +56,8 @@ $(document).ready(function() {
             hbar_f.Set('chart.background.grid', false);
 			hbar_f.Set('chart.text.size',12);
 			hbar_f.Set('chart.text.color','#7A7B7A');
-            hbar_f.Set('chart.labels', ['Communication','Methodes Agiles','Anglais', 'Analyse / formalisation besoins','Integration continue']);
-			hbar_f.Set('chart.title','Competences fonctionnelles en %');
+            hbar_f.Set('chart.labels', ['Communication','Anglais','Analyse des besoins','Integration continue','Methodes Agiles']);
+			hbar_f.Set('chart.title','Competences complementaires en %');
 			hbar_f.Set('chart.title.color','#304D90');
 			hbar_f.Set('chart.title.size','10');
             

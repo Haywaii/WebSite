@@ -21,7 +21,7 @@ margin : auto;
 width: 14%;
 height: 4rem;
 float: left;
-margin-left: 0.3%;
+margin-left: 0.4%;
 background-image: url("../../images/title_mobile.png");
 background-repeat: no-repeat;
 }
@@ -68,11 +68,10 @@ float: left;
 
 /** Language **/
 header div aside {
-width: 13%;
-height: 100%;
+width: 12%;
+height: 4rem;
 float: right;
-/**clear:both;**/
-margin-top:-25%;
+margin-top:-16%;
 }
 
 /** FOOTER **/
@@ -96,6 +95,7 @@ margin-bottom: 5%;
 text-transform: lowercase;
 font-variant: small-caps;
 text-align: center;
+margin-left: 6%;
 }
 
 /** Networking **/
@@ -127,25 +127,26 @@ small {
 }
 
 /** ICON STAY CONNECTED **/
+
 #connect-facebook {
 background : url("../../icon/facebook_maj.png") no-repeat scroll -8px -5px transparent;
 width: 25%;
 height: 2.5rem;
-padding: 0% 0% 16% 20%;
+padding: 0% 0% 18% 22%;
 }
 
 #connect-linkedin {
 background : url("../../icon/linkedIn_maj.png") no-repeat scroll -8px -5px transparent;
 width: 30%;
 height: 2.5rem;
-padding: 0% 0% 16% 20%;
+padding: 0% 0% 18% 22%;
 }
 
 #connect-skype {
 background : url("../../icon/skype.png") no-repeat scroll -8px -5px transparent;
 width: 45%;
 height: 2.5rem;
-padding: 0% 0% 16% 20%;
+padding: 0% 0% 20% 26%;
 }
 
 .sbconnecticon {
@@ -306,7 +307,6 @@ background-color : #219EFE;
 ul[name="menu"] li li:hover{
 background:#B6E4F2;
 }
-
 
 a {
     text-decoration: none;
