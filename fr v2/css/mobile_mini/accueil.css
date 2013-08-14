@@ -1,5 +1,4 @@
-/** CSS DE MON SITE WEB **/
-/** By Emmanuel Halter **/
+/** CSS PAGE ACCUEIL **/
 
 body {
 	background : url("../../images/body.png") repeat scroll 0% 0% transparent;
@@ -13,17 +12,17 @@ body {
 }
 
 .content img {
-width: 20%;
-display: block;
-padding-left : 41%;
-margin-bottom: 2%;
-margin-top: 3%;
+	width: 20%;
+	display: block;
+	padding-left : 41%;
+	margin-bottom: 2%;
+	margin-top: 3%;
 }
 
 article {
-margin-bottom: 1%;
-margin-top: 4%;
-width: 100%;
+	margin-bottom: 1%;
+	margin-top: 4%;
+	width: 100%;
 }
 
 article h1 {

@@ -1,14 +1,11 @@
-/** CSS DE MON SITE WEB **/
-/** By Emmanuel Halter **/
+/** CSS PAGE COMPETENCES **/
 
-
-/** CONTENT HOME **/
 body {
 	background : url("../../images/body.png") repeat scroll 0% 0% transparent;
 	margin: 0 auto;	
 }
 
-/** SECTION PRESENTATION SKILLS **/
+/** Presentation Skills **/
 
 section[name="skills"]{
 margin-right: auto;
@@ -29,6 +26,7 @@ section[name="skills"] h1 {
 	font-weight: bold;
 }
 
+/** Affichage des 2 graphiques **/
 canvas[name] {
 margin: auto;
 display: inline-block;
@@ -43,10 +41,6 @@ canvas[name="fSkills"] {
 padding-top: 2%;
 padding-bottom: 3%;
 }
-
-
-
-/** DIVERS **/ 
 
 a {
     text-decoration: none;

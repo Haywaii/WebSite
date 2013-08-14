@@ -1,20 +1,16 @@
-/** CSS DE MON SITE WEB **/
-/** By Emmanuel Halter **/
+/** CSS PAGE AMIS **/
 
-/** CONTENT HOME **/
 body {
 	background : url("../images/body.png") repeat scroll 0% 0% transparent;
 	margin: 0 auto;
 }
 
-
-/** CONTENT **/
 aside[name="friends"] {
-width: 100%;
-height: 58rem;
-padding-top: 2%;
-margin: auto;
-font-family: 'Helvetica Neue';
+	width: 100%;
+	height: 58rem;
+	padding-top: 2%;
+	margin: auto;
+	font-family: 'Helvetica Neue';
 }
 
 aside[name="friends"] h1 {
@@ -22,7 +18,6 @@ aside[name="friends"] h1 {
 	color: #F2A101;
 	font-size: 3rem;
 	text-transform: uppercase;
-	
 }
 
 aside[name="friends"] h2 {
@@ -36,8 +31,6 @@ aside[name="friends"] h3 {
 	text-align: center;
 	color: #F2A101;
 	font-size: 2rem;
-	margin-right: 0%;
-	margin-bottom: 0%;
 	margin-top: 2%;	
 }
 
@@ -71,8 +64,6 @@ aside[name="friends"] ul li {
 	margin-bottom: 1%;
 	list-style: none outside none;
 }
-
-/** DIVERS **/ 
 
 a {
     text-decoration: none;

@@ -1,24 +1,22 @@
-/** CSS DE MON SITE WEB **/
-/** By Emmanuel Halter **/
+/** CSS PAGE CV **/
 
-/** CONTENT HOME **/
 body {
 	background : url("../../images/body.png") repeat scroll 0% 0% transparent;
 	margin: 0 auto;	
 }
 
 .content {
-margin-right: auto;
-margin-left: auto;
-width: 90%;
-height: 50rem;
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+	height: 50rem;
 }
 
 .content section {
 	width: 100%;
 }
 
-/** SECTION CV **/
+/** Section CV **/
 
 #cv ol  li {
     border: 2px solid #87CBFE;
@@ -56,28 +54,26 @@ height: 50rem;
 }
 
 section[name="cv"] h2 {
-text-align: center;
-font-family: 'Helvetica Neue';
-color: #FEEA34;
-font-size: 1.5rem;
-background-color: #87CBFE;
-line-height: 100%;
+	text-align: center;
+	font-family: 'Helvetica Neue';
+	color: #FEEA34;
+	font-size: 1.5rem;
+	background-color: #87CBFE;
+	line-height: 100%;
 }
 
 section[name="cv"] a img {
-width: 100%;
+	width: 100%;
 }
 
 #vs {
-width: 8%;
-height: 8rem;
-margin: auto;
-display: block;
-padding-top: 16%;
+	width: 8%;
+	height: 8rem;
+	margin: auto;
+	display: block;
+	padding-top: 16%;
 }
 
-
-/** DIVERS **/ 
 
 a {
     text-decoration: none;

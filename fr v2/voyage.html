@@ -10,15 +10,30 @@
 		<title>
 			  Voyage | Emmanuel HALTER
 		</title>
-		<link rel="stylesheet" type="text/css" media="screen and (min-width: 1024px) and (max-width: 1799px)" href="css/default/voyage.css">
-		<link rel="stylesheet" type="text/css" media="screen and (min-width: 1024px) and (max-width: 1799px)" href="css/default/header_footer.css">
-		<link rel="stylesheet" type="text/css" media="only screen and (min-width: 1800px)" href="css/vhd/voyage.css">
-		<link rel="stylesheet" type="text/css" media="only screen and (min-width: 769px) and (max-width: 1024px)" href="css/middle/voyage.css">
-		<link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 481px) and (max-device-width: 768px)" href="css/mobile_bis/voyage.css">
-		<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" href="css/mobile/voyage.css">
+		<!-- Common Resolution -->
+		<link rel="stylesheet" type="text/css" media="screen and (min-width: 84.7em) and (max-width: 119.231em)" href="css/default/voyage.css" />
+		<link rel="stylesheet" type="text/css" media="screen and (min-width: 84.7em) and (max-width: 119.231em)" href="css/default/header_footer.css" />
+		<!-- High Resolution -->
+		<link rel="stylesheet" type="text/css" media="only screen and (min-width: 119.231em)" href="css/vhd/voyage.css" />
+		<link rel="stylesheet" type="text/css" media="only screen and (min-width: 119.231em)" href="css/vhd/header_footer.css" />
+		<!-- Low / Tablette Resolution -->
+		<link rel="stylesheet" type="text/css" media="only screen and (min-width: 62.077em) and (max-width: 84.7em)" href="css/middle/voyage.css" />
+		<link rel="stylesheet" type="text/css" media="only screen and (min-width: 62.077em) and (max-width: 84.7em)" href="css/middle/header_footer.css" />
+		<!-- Mobile / Tablette Resolution --> 
+		<link rel="stylesheet" type="text/css" media="only screen and (min-width: 37em) and (max-width: 62.077em)" href="css/mobile_high/voyage.css" />
+		<link rel="stylesheet" type="text/css" media="only screen and (min-width: 37em) and (max-width: 62.077em)" href="css/mobile_high/header_footer.css" />
+		<!-- iPhone / Mini Tablette Resolution -->
+		<link rel="stylesheet" type="text/css" media="only screen and (min-width: 24.615em) and (max-width: 37em)" href="css/mobile_medium/voyage.css" />
+		<link rel="stylesheet" type="text/css" media="only screen and (min-width: 24.615em) and (max-width: 37em)" href="css/mobile_medium/header_footer.css" />
+		<!-- Old Mobile Resolution -->
+		<link rel="stylesheet" type="text/css" media="(max-width: 24.615em)" href="css/mobile_mini/voyage.css" />
+		<link rel="stylesheet" type="text/css" media="(max-width: 24.615em)" href="css/mobile_mini/header_footer.css" />
+		
 		<!--[if (lt IE 9)&(!IEMobile)]>
-			<link rel="stylesheet" type="text/css" media="screen and (min-width: 1024px) and (max-width: 1799px)" href="css/default/voyage.css" media="all">
-			<link rel="stylesheet" type="text/css" media="only screen and (min-width: 1800px)" href="css/vhd/voyage.css" media="all">
+			<link rel="stylesheet" type="text/css" media="screen and (min-width: 84.7em) and (max-width: 119.231em)" href="css/default/voyage.css" media="all">
+			<link rel="stylesheet" type="text/css" media="screen and (min-width: 84.7em) and (max-width: 119.231em)" href="css/default/header_footer.css" media="all">
+			<link rel="stylesheet" type="text/css" media="only screen and (min-width: 119.231em)" href="css/vhd/voyage.css" media="all">
+			<link rel="stylesheet" type="text/css" media="only screen and (min-width: 119.231em)" href="css/vhd/header_footer.css" media="all">
 		<![endif]-->
 		
 		<link rel="icon" type="image/png" href="icon/favicon.png" />
@@ -47,7 +62,7 @@
 					<li><a href="http://ehalter.com/histoire.html">Histoire</a></li>
 					<li><a href="http://ehalter.com/voyage.html">Voyage</a></li>
 					<li><a href="http://ehalter.com/sport.html">Sport</a></li>
-					<li><a href="http://ehalter.com/recrutement.html">Recrutement</a></li>
+					<li><a href="http://ehalter.com/business.html">Business</a></li>
 				</ul>
 			</li>
 			<li>
@@ -88,7 +103,7 @@
 			Bonjour voyageur
 		</p>
 		<p>
-			L'embarquement est imminent, veuillez vous présenter à la porte A.
+			L'embarquement est imminent, veuillez vous présenter à la porte H.
 		</p>
 		<p>
 			N'hésitez pas à <strong>consulter la mapmonde</strong> ci-dessous pour découvrir nos différentes étapes. 
@@ -128,7 +143,7 @@
 		</section>
 </footer>
 <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASxOIVVUxdJGPdrB5tI4y4dkP6lRIzSIY&sensor=false"></script>
 <script type="text/javascript" src="js/travel.js"></script>
 <script type="text/javascript" src="js/reveal.js"></script>	
 <div id="myModal" class="reveal-modal">

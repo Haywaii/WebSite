@@ -1,20 +1,17 @@
-/** CSS DE MON SITE WEB **/
-/** By Emmanuel Halter **/
+/** CSS PAGE PROFIL COMPETENCES **/
 
-
-/** CONTENT HOME **/
 body {
 	background : url("../../images/body.png") repeat scroll 0% 0% transparent;
 	margin: 0 auto;	
 }
 
-/** SECTION PRESENTATION SKILLS **/
+/** Presentation skills via graphique **/
 
 section[name="skills"]{
-margin-right: auto;
-margin-left: auto;
-width: 90%;
-margin-bottom: 4%;
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+	margin-bottom: 4%;
 }
 
 section[name="skills"] h1 {
@@ -30,25 +27,21 @@ section[name="skills"] h1 {
 }
 
 canvas[name] {
-margin: auto;
-display: inline-block;
+	margin: auto;
+	display: inline-block;
 }
 
 canvas[name="tSkills"] {
-padding-top: 4%;
-padding-bottom: 3%;
-width:49%;
+	padding-top: 4%;
+	padding-bottom: 3%;
+	width:49%;
 }
 
 canvas[name="fSkills"] {
-padding-top: 2%;
-padding-bottom: 3%;
-width: 49%;
+	padding-top: 2%;
+	padding-bottom: 3%;
+	width: 49%;
 }
-
-
-
-/** DIVERS **/ 
 
 a {
     text-decoration: none;

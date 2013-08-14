@@ -1,7 +1,5 @@
-/** CSS DE MON SITE WEB **/
-/** By Emmanuel Halter **/
+/** CSS PAGE MISSIONS FUTUR **/
 
-/** CONTENT HOME **/
 body {
 	background : url("../../images/body.png") repeat scroll 0% 0% transparent;
 	margin: 0 auto;
@@ -10,21 +8,18 @@ body {
 
 /** CONTENT **/
 section[name="futur"] {
-width: 80%;
-height: 72rem;
-padding-top: 4%;
-margin: auto;
-font-family: 'Helvetica Neue';
+	width: 80%;
+	height: 72rem;
+	padding-top: 4%;
+	margin: auto;
+	font-family: 'Helvetica Neue';
 }
 
 section[name="futur"] h1 {
 	text-align: center;
 	color: #F2A101;
 	font-size: 2rem;
-	text-align : center;
 	margin-bottom: 2%;
-	margin-right: 0%;
-	
 }
 
 section[name="futur"] p {
@@ -35,7 +30,7 @@ section[name="futur"] p {
 }
 
 section[name="futur"] div {
-margin-bottom: 4%;
+	margin-bottom: 4%;
 }
 
 section[name="futur"] div  img {
@@ -44,7 +39,6 @@ section[name="futur"] div  img {
 	padding-top: 4%;
 	width: 45%;
 }
-/** DIVERS **/ 
 
 a {
     text-decoration: none;

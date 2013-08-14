@@ -1,16 +1,13 @@
-/** CSS DE MON SITE WEB **/
-/** By Emmanuel Halter **/
+/** CSS PAGE CONTACT **/
 
-
-/** SECTION CONTACT **/
 body {
 	background : url("../../images/body.png") repeat scroll 0% 0% transparent;
 	margin: 0 auto;
 }
 
 #contact {
-margin-bottom: 3%;
-margin-top: 1%;
+	margin-bottom: 3%;
+	margin-top: 1%;
 }
 
 section h1 {
@@ -28,8 +25,8 @@ section p {
 }
 
 form {
-margin: auto;
-width: 100%;
+	margin: auto;
+	width: 100%;
 }
 
 form input[type="text"]  {
@@ -94,7 +91,7 @@ input {
 }
 
 .input_container {
-text-align:center;
+	text-align:center;
 }
 
 form a {

@@ -1,13 +1,9 @@
-/** CSS DE MON SITE WEB **/
-/** By Emmanuel Halter **/
+/** CSS PAGE DE CONTACT **/
 
-/** CONTENT HOME **/
 body {
 	background : url("../../images/body.png") repeat scroll 0% 0% transparent;
 	margin: 0 auto;
 }
-
-
 
 /** SECTION CONTACT **/
 
@@ -128,8 +124,6 @@ form button > span {
 	color: #EFE237;
 	font-family: verdana,sans-serif;
 }
-
-/** DIVERS **/ 
 
 a {
     text-decoration: none;
