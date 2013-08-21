@@ -125,7 +125,8 @@ small {
 	font-family: 'PMN55',arial,verdana,sans-serif;
 	display: block;
 	margin: auto;
-	width: 60%;
+	text-align: center;
+	width: 85%;
 }
 
 /** ICON STAY CONNECTED **/

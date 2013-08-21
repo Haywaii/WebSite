@@ -1,28 +1,28 @@
 /** CSS PAGE PROJETS HAPPIWORK **/
 
 body {
-	background : url("../images/body.png") repeat scroll 0% 0% transparent;
+	background : url("../../images/body.png") repeat scroll 0% 0% transparent;
 	margin: 0 auto;
 }
 
 .content {
 	width: 100%;
-	height: 75rem;
+	height: 94rem;
 	padding-top: 4%;
 	margin: auto;
 	font-family: 'Helvetica Neue';
 }
 
-.content h1 {
+.content h1{
 	text-align: center;
-	color: #F2A101;
+	color: #FEEA34;
 	font-size: 2rem;
-	text-align : center;
-	margin-bottom: 1%;
+	padding-top: 1%;
+	background-color: #87CBFE;
 }
 
 .content p {
-	font-size: 1.1rem;
+	font-size: 1.4rem;
 	/**color: #90A0D7;**/
 	color: #A7A8A8;
 	text-align: center;
@@ -37,26 +37,19 @@ body {
 	color: #2252A5;
 }
 
-.content h2 {
-	text-align: center;
-	color: #FEEA34;
-	font-size: 1.5rem;
-	padding-top: 1%;
-	background-color: #87CBFE;
-}
 
 /** Calendrier Happiwork **/ 
 section[name="beginning"] li, section[name="aftermatch"] li{
 	width: 15%;
-	height: 7rem;
+	height: 9rem;
 	background-color: #F4F4F4;	
 	border: 2px solid #87CBFE;
 	border-radius: 3% 3% 3% 3%;
 	list-style: none outside none;
 	position: relative;
-	margin: 1em 0px;
-	margin-left: 42%;
-	margin-bottom: 2%;
+	margin: auto;
+	margin-top: 2%;
+	display: block;
 }
 
 section[name="calendar"] {
@@ -66,7 +59,7 @@ section[name="calendar"] {
 
 section[name="calendar"] ol li{
 	width: 15%;
-	height: 8rem;
+	height: 10rem;
 	background-color: #F4F4F4;	
 	border: 2px solid #87CBFE;
 	border-radius: 3% 3% 3% 3%;
@@ -81,8 +74,12 @@ section[name="calendar"] ol li{
 	margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
-	width: 5%;
+	width: 4%;
 	height: 7rem;
+}
+
+.content img[id] {
+	margin-top: 7%;
 }
 
 /** Organisation calendrier **/

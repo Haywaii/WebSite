@@ -13,12 +13,13 @@ body {
 	margin: auto;
 	font-family: 'Helvetica Neue';
 }
-
-.content h1 {
+ 
+.content h1{
 	text-align: center;
-	color: #F2A101;
-	font-size: 2rem;
-	margin-bottom: 1%;
+	color: #FEEA34;
+	font-size: 1.8rem;
+	padding-top: 1%;
+	background-color: #87CBFE;
 }
 
 .content p {
@@ -37,13 +38,6 @@ body {
 	color: #2252A5;
 }
 
-.content h2 {
-	text-align: center;
-	color: #FEEA34;
-	font-size: 1.5rem;
-	padding-top: 1%;
-	background-color: #87CBFE;
-}
 
 /** Calendrier HappiWork **/ 
 section[name="beginning"] li, section[name="aftermatch"] li{
@@ -54,9 +48,9 @@ section[name="beginning"] li, section[name="aftermatch"] li{
 	border-radius: 3% 3% 3% 3%;
 	list-style: none outside none;
 	position: relative;
-	margin: 1em 0px;
-	margin-left: 42%;
-	margin-bottom: 2%;
+	margin: auto;
+	display: block;
+	margin-top: 2%;
 }
 
 section[name="calendar"] {
