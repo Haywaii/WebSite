@@ -1,0 +1,85 @@
+/** CSS PAGE EXPERIENCES **/
+
+body {
+	background : url("../../images/body.png") repeat scroll 0% 0% transparent;
+	margin: 0 auto;	
+}
+
+.content {
+	margin : auto;
+	width: 100%;
+	height: 120rem;
+}
+
+.content section {
+	margin-bottom: 4%;
+}
+
+.content section article{
+	width: 49%;
+	padding-top: 2%;
+	text-align : center;
+	font-family: 'Helvetica Neue';
+	display: inline-block;
+	margin: auto;
+}
+
+.content section canvas {
+	width: 40%;
+	padding-left: 5%;
+	display: inline-block;
+	margin: auto;
+}
+
+article h1 {
+	font-size: 1.8rem;
+	padding-top: 4%;
+	color: #F2A101;
+	font-weight: bold;
+}
+
+article h2 {
+	font-size: 1.2rem;
+	color: #A3A4A4;
+	font-style: italic;
+}
+
+article h3 {
+	font-size: 1rem;
+	color: #A3A4A4;
+	font-style: italic;
+}
+
+article p {
+	font-size: 1.1rem;
+	color: #4296C7;
+	padding-top: 2%;
+}
+
+article ul {
+	list-style: disc outside none;
+}
+
+article ul li {
+	width: 100%;
+	text-align: center;
+}
+
+article a {
+	color: #F2A101;
+}
+
+article a:hover {
+    text-decoration: none;
+	border-bottom: 1px dashed;
+}
+
+a {
+    text-decoration: none;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+	font-size:100%;
+}

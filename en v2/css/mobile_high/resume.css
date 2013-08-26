@@ -1,0 +1,84 @@
+/** CSS PAGE PROFIL CV **/
+
+body {
+	background : url("../../images/body.png") repeat scroll 0% 0% transparent;
+	margin: 0 auto;	
+}
+
+.content {
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+	height: 30rem;
+}
+
+.content section {
+	width: 100%;
+}
+
+/** SECTION CV **/
+#cv ol  li {
+    border: 2px solid #87CBFE;
+	border-radius: 1% 1% 1% 1%;
+	list-style: none outside none;
+	position: relative;
+	width: 30%;
+	height: 18rem;
+	margin: 1em 0px;
+	background-color: #F4F4F4;
+}
+
+#cv ol  li:nth-child(1) {
+	float: left;
+    clear: left;
+	left: 5%;
+}
+
+#cv ol  li:nth-child(2) {
+	float: right;
+	clear: right;
+	right: 5%;
+}
+
+.content h1 {
+	width: 90%;
+	font-family: 'Helvetica Neue';
+	font-size: 1.5rem;
+	padding-top: 4%;
+	text-align : center;
+	margin: auto;
+	display: block;
+	color: #F2A101;
+	font-weight: bold;
+}
+
+section[name="cv"] h2 {
+	text-align: center;
+	font-family: 'Helvetica Neue';
+	color: #FEEA34;
+	font-size: 1rem;
+	background-color: #87CBFE;
+	line-height: 100%;
+}
+
+section[name="cv"] a img {
+	width: 100%;
+}
+
+#vs {
+	width: 8%;
+	height: 4rem;
+	margin: auto;
+	display: block;
+	padding-top: 16%;
+}
+
+a {
+    text-decoration: none;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+	font-size: 100%;
+}

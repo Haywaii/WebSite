@@ -1,0 +1,76 @@
+/** CSS PAGE AMIS **/
+
+body {
+	background : url("../../images/body.png") repeat scroll 0% 0% transparent;
+	margin: 0 auto;
+}
+
+aside[name="friends"] {
+width: 100%;
+height: 42rem;
+padding-top: 2%;
+margin: auto;
+font-family: 'Helvetica Neue';
+}
+
+aside[name="friends"] h1 {
+	text-align: center;
+	color: #F2A101;
+	font-size: 2rem;
+	text-transform: uppercase;	
+}
+
+aside[name="friends"] h2 {
+	color: #304D90;
+	text-align: center;
+	font-style: italic;
+	font-size: 0.85rem;
+}
+
+aside[name="friends"] h3 {
+	text-align: center;
+	color: #F2A101;
+	font-size: 1.3rem;
+	margin-top: 3%;	
+}
+
+aside[name="friends"] p {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	font-size: 1rem;
+	color: #90A0D7;
+	text-align: center;
+}
+
+aside[name="friends"] a {
+	color: #2252A5;
+	font-style: bold;
+	font-size: 1rem;
+}
+
+/** Soulignement des liens **/
+aside[name="friends"] a:hover {
+	text-decoration: none;
+	border-bottom: 1px dashed;
+}
+
+aside[name="friends"] strong {
+	color: #F2A101;
+}
+
+aside[name="friends"] ul li {
+	color: #90A0D7;
+	text-align:center;
+	margin-bottom: 1%;
+	list-style: none outside none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+	font-size: 100%;
+}

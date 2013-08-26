@@ -1,9 +1,9 @@
 /** Affichage Quote Motto **/
  $(document).ready(function(){
       var myQuotes = new Array();
-      myQuotes[0] = "Through struggle...to the stars";
-      myQuotes[1] = "Nothing is difficult, everything's a challenge";
-	  myQuotes[2] = "Do not think to win, Think not to lose";
+      myQuotes[0] = "&ldquo; &Agrave; travers l'adversit&eacute;...jusqu'aux &eacute;toiles &bdquo;";
+      myQuotes[1] = "&ldquo; Rien n'est difficile, tout est challenge &bdquo;";
+	  myQuotes[2] = "&ldquo; Ne pense pas &agrave; gagner, pense &agrave; ne pas perdre &bdquo;";
 	  
 	  var mySource = new Array();
       mySource[0] = "RAF Motto";
@@ -39,13 +39,15 @@ $(document).ready(function initialiser() {
 				// Préparation des données
 				var locations = [
 				  ['Paris',48.8566140, 2.3522219],
-				  ['London',51.5112139, -0.1198244],
+				  ['Londres',51.5112139, -0.1198244],
 				  ['Cardiff',51.4815810, -3.1790900],
-				  ['Barcelona',41.3850639, 2.1734035],
+				  ['Barcelone',41.3850639, 2.1734035],
 				  ['NY',40.7143528, -74.0059731],
-				  ['Geneva',46.1983922, 6.1422961],
+				  ['Genève',46.1983922, 6.1422961],
 				  ['Liege',50.6325574, 5.5796662],
-				  ['Annecy',45.8992470, 6.1293840]
+				  ['Annecy',45.8992470, 6.1293840],
+				  ['Bruxelles',50.8503396, 4.3517103],
+				  ['Lausanne',46.5199617, 6.6335971]
 				];
 				
 				// Boucle pour afficher les locations
@@ -63,11 +65,11 @@ $(document).ready(function initialiser() {
 					if(locations[i][0] == 'NY') {
 						var contentString = '<div id="content">'+
 						  '<h1>New York</h1>'+
-						  '<h2>Holidays</h2>'+
-						  '<p> Discover the Big Apple with friends during earthquake and Hurricane Irene. ' +
-						  'Really stunning to see these by itself.'+
-						  'Beautiful travel, this place has something special</p>'+
-						  '<p><strong>Last visited August/September, 2011.</strong></p>'+
+						  '<h2>Vacances</h2>'+
+						  '<p> Découvrir la Grande Pomme avec des amis pendant le tremblement terre et l&apos;ouragan Irène. ' +
+						  'Réellement impressionnant de voir ça par soi-même'+
+						  'Magnifique voyage, cet endroit a quelque chose de spécial</p>'+
+						  '<p><strong>Dernière visite Août/Septembre 2011.</strong></p>'+
 						  '</div>';
 						var infowindowNY = new google.maps.InfoWindow({
 						content: contentString,
@@ -78,13 +80,13 @@ $(document).ready(function initialiser() {
 							infowindowNY.open(map,marqueurs[4]);
 						});
 					}
-					else if(locations[i][0] == 'London') {
+					else if(locations[i][0] == 'Londres') {
 						var contentString = '<div id="content">'+
 						  '<h1>London</h1>'+
-						  '<h2>Holidays</h2>'+
-						  '<p> Seeing one of my friends who live there. ' +
-						  'It is always good to see people you love and travel at the same time.</p>'+
-						  '<p><strong>Last visited June, 2012.</strong></p>'+
+						  '<h2>Vacances</h2>'+
+						  '<p> Voir un de mes amis qui vit là bas. ' +
+						  'C&apos;est toujours agréable de voir les gens qu&apos;on aime et voyager en même temps.</p>'+
+						  '<p><strong>Dernière visite Juin 2012.</strong></p>'+
 						  '</div>';
 						var infowindowLondon = new google.maps.InfoWindow({
 						content: contentString,
@@ -94,13 +96,13 @@ $(document).ready(function initialiser() {
 							infowindowLondon.open(map,marqueurs[1]);
 						});
 					}
-					else if(locations[i][0] == 'Barcelona') {
+					else if(locations[i][0] == 'Barcelone') {
 						var contentString = '<div id="content">'+
-						  '<h1>Barcelona</h1>'+
-						  '<h2>Holidays</h2>'+
-						  '<p> One week with my friends near Barcelona' +
-						  'to have fun and to discover Catalonia.</p>'+
-						  '<p><strong>Last visited September, 2012.</strong></p>'+
+						  '<h1>Barcelone</h1>'+
+						  '<h2>Vacances</h2>'+
+						  '<p>Une semaine avec mes amis près de Barcelone' +
+						  'pour se détendre et découvrir la Catalogne.</p>'+
+						  '<p><strong>Dernière visite Septembre 2012.</strong></p>'+
 						  '</div>';
 						var infowindowBarcelona = new google.maps.InfoWindow({
 						content: contentString,
@@ -113,10 +115,10 @@ $(document).ready(function initialiser() {
 					else if(locations[i][0] == 'Cardiff') {
 						var contentString = '<div id="content">'+
 						  '<h1>Cardiff</h1>'+
-						  '<h2>Holidays</h2>'+
-						  '<p> My first travel abroad. ' +
-						  'One week to see one of my sister in internship there and to enjoy Wales.</p>'+
-						  '<p><strong>Last visited july, 1996.</strong></p>'+
+						  '<h2>Vacances</h2>'+
+						  '<p> Mon premier voyage à l&apos;étranger. ' +
+						  'Une semaine pour voir ma soeur en stage là bas et visiter le Pays De Galles.</p>'+
+						  '<p><strong>Dernière visite Juillet 1996.</strong></p>'+
 						  '</div>';
 						var infowindowCardiff = new google.maps.InfoWindow({
 						content: contentString,
@@ -129,8 +131,8 @@ $(document).ready(function initialiser() {
 					else if(locations[i][0] == 'Paris') {
 						var contentString = '<div id="content">'+
 						  '<h1>France</h1>'+
-						  '<h2> My Home Country.</h2> ' +
-						  '<p>Culinary reputation, old History and Alps are always an oasis of well-being.</p>'+
+						  '<h2> Ma terre natale.</h2> ' +
+						  '<p>Réputation culinaire, riche Histoire et les Alpes sont toujours une oasis de bien-être.</p>'+
 						  '</div>';
 						var infowindowFrance = new google.maps.InfoWindow({
 						content: contentString,
@@ -143,10 +145,10 @@ $(document).ready(function initialiser() {
 					else if(locations[i][0] == 'Annecy') {
 						var contentString = '<div id="content">'+
 						  '<h1>Annecy</h1>'+
-						  '<h2>My french paradise.</h2>' +
-						  '<p>Also known as "Venice of Alps" is a quited and beautiful city.</p>'+
-						  '<p>It is a lovely blend of town and nature</p>'+
-						  '<p><strong>Last visited july, 2013.</strong></p>'+
+						  '<h2>Mon paradis français.</h2>' +
+						  '<p>Ausi connu comme "Venise des Alpes", c&apos;est une charmante et paisible ville.</p>'+
+						  '<p>C&apos;est le compromis parfait entre nature et civilisation</p>'+
+						  '<p><strong>Dernière visite Juillet 2013.</strong></p>'+
 						  '</div>';
 						var infowindowAnnecy = new google.maps.InfoWindow({
 						content: contentString,
@@ -154,6 +156,22 @@ $(document).ready(function initialiser() {
 						});
 						google.maps.event.addListener(marqueur, 'click', function() {
 							infowindowAnnecy.open(map,marqueurs[7]);
+						});
+					}
+					else if(locations[i][0] == 'Genève') {
+						var contentString = '<div id="content">'+
+						  '<h1>Genève</h1>'+
+						  '<h2>Pour le travail</h2>' +
+						  '<p>6 mois dans le secteur bancaire.</p>'+
+						  '<p>Ville internationale par excellence où se cotoient de multiples cultures</p>'+
+						  '<p><strong>Dernière visite Juillet 2013.</strong></p>'+
+						  '</div>';
+						var infowindowAnnecy = new google.maps.InfoWindow({
+						content: contentString,
+						maxWidth: 300
+						});
+						google.maps.event.addListener(marqueur, 'click', function() {
+							infowindowAnnecy.open(map,marqueurs[5]);
 						});
 					}
 				}

@@ -1,23 +1,24 @@
- /** Affichage Quote Motto **/
+/** Affichage Quote Motto **/
+
  $(document).ready(function(){
       var myQuotes = new Array();
-      myQuotes[0] = "Through struggle...to the stars";
-      myQuotes[1] = "Nothing is difficult, everything's a challenge";
-	  myQuotes[2] = "They do not know it was impossible so they do it";
-	  myQuotes[3] = "Do not think to win, Think not to lose";
+      myQuotes[0] = "&ldquo; Through struggle...to the stars &bdquo;";
+      myQuotes[1] = "&ldquo; Nothing is difficult, everything's a challenge &bdquo;";
+	  myQuotes[2] = "&ldquo; Do not think to win, Think not to lose &bdquo;";
 	  
 	  var mySource = new Array();
       mySource[0] = "RAF Motto";
       mySource[1] = "Turskee Air Force Motto";
-	  mySource[3] = "Gichin Funakoshi";
+	  mySource[2] = "Gichin Funakoshi";
       
       var myRandom = Math.floor(Math.random()*myQuotes.length);
       $(".message").html(myQuotes[myRandom]);
 	  $(".source").html(mySource[myRandom]);
 	  
-   });
+});
 
-/** Validation Engine **/   
+/** Validation Engine **/
+
 //$(document).ready(function(){
    //$("#cform").validationEngine();/*{
     //binded: false  });*/
@@ -53,15 +54,15 @@ $(document).ready(function(){
 							url: $(this).attr('action'),
 							data: $(this).serialize(),
 							success : function(){
-								$('#contact').html('<p>Message bien envoyé</p>');
+								$('#contact').html('<p>Message well sent</p>');
 							},
 							error: function(){
-								$('#contact').html("<p>Erreur, le message ne peut pas être envoyé</p>");
+								$('#contact').html("<p>Sorry, message can not be sent</p>");
 							}
 					});
 				}
 				else if(document.getElementById('radio1').checked) {
-				  alert("Vous n'êtes qu'une machine, passez votre chemin");
+				  alert("You are just a machina, go away");
 				}
 				//return false;
 		});

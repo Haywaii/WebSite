@@ -1,0 +1,30 @@
+/** CSS PAGE APPORTS **/
+
+body {
+	background : url("../../images/body.png") repeat scroll 0% 0% transparent;
+	margin: 0 auto;	
+}
+
+.content {
+margin-right: auto;
+margin-left: auto;
+}
+
+.content img {
+	display: block;
+	margin-bottom:2%;
+	margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+	width: 90%;
+}
+
+a {
+    text-decoration: none;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+	font-size: 100%;
+}
